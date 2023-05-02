@@ -76,7 +76,7 @@
                 <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>INTERIOR</p></a>
             </div>
         </div>
-        <div class="cards__card">
+        <!-- <div class="cards__card">
             <img src="./imagenes/pmo.png" alt="">
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">programa médico obligatorio</h3>
@@ -86,7 +86,7 @@
                 <br>
                 <a href="./pages/pmo.php" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i><p>conocer más...</p></a>
             </div>
-        </div>
+        </div> -->
         <div class="cards__card">
             <img src="./imagenes/traslados.png" alt="">
             <div class="cards__card__body">

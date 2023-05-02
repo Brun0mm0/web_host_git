@@ -6,8 +6,13 @@
     <div class="container planes">
 
         <h2>Planes</h2>
-        <p>conoce mas del programa medico obligatorio ingresando aquí</p>
-        <div class="planes__encabezado">
+        <div>
+            <p><a href="#s100"># <em>plan</em> S-100</a></p>
+            <p><a href="#s200"># <em>plan</em> S-200</a></p>
+            <p><a href="#s300"># <em>plan</em> S-300J</a></p>
+        </div>
+        <p>Conocé mas del <em>programa medico obligatorio</em> <a href="./pmo.php">ingresando aquí</a></p>
+        <div class="planes__encabezado" id="s100">
             <div class="planes__encabezado-texto">
                 <h3>cuadro de cobertura plan s-100</h3>
                 <div class="planes__encabezado-parrafo">
@@ -321,7 +326,7 @@
         El médico de confianza elegido por el paciente será quien lo atienda permanentemente y podrá derivarlo a los especialistas cuando corresponda.<br>
         Para el descuento de medicamentos ambulatorios con el 70% de descuento (Cronicidad) el paciente debe inscribirse en el programa de cronicidad de la obra social con el formulario que le será entregado por su médico. En todos los casos las prestaciones de alta complejidad médica requieren de autorización previa de la auditoría médica de la obra social y serán realizadas con los prestadores de la cartilla.</p>
        <hr>
-        <div class="planes__encabezado">
+        <div class="planes__encabezado" id="s200">
             <div class="planes__encabezado-imagen">
                 <img src="../imagenes/s200.png" alt="">
             </div>
@@ -667,7 +672,7 @@
         (1) Dos armazones tipo standard - inyectado o metal - en caso de prescripción de cristales de visión lejana y cercana cada dos años.<br>
         (2) Un par de cristales minerales u orgánicos para visión cercana y un par de cristales minerales u orgánicos para visión lejana cada dos años o un par de cristales minerales u orgánicos bifocales cada dos años.</p>
        <hr>
-        <div class="planes__encabezado">
+        <div class="planes__encabezado" id="s300">
             <div class="planes__encabezado-texto">
                 <h3>cuadro de cobertura plan s-300J</h3>
                 <div class="planes__encabezado-parrafo">
