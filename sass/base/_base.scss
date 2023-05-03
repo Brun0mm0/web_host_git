@@ -46,11 +46,12 @@ hr {
     margin-inline: auto;
     display: grid;
     background-color: $azul-bg;
-    grid-gap: 4rem;
+    grid-gap: 6rem;
     padding: 15rem;
     padding-top: 30rem;
-
+    
     @include respond(tab-land) { 
+        grid-gap: 4rem;
         max-width: 900px;
         padding: 0 3rem; 
         padding-top: 20rem;

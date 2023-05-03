@@ -44,7 +44,7 @@
         &-text {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 8rem 4rem;
 
 
@@ -61,7 +61,7 @@
                 text-decoration: none;
             }
             
-            @include respond(tab-port) {
+            @include respond(tab-land) {
                 padding: 4rem;
             }
             
@@ -87,7 +87,10 @@
             height: 100%;
 
             & img {
+            // height: calc(100vh - 35rem);
+                // height: 100%;
                 max-width: 100%;
+                object-fit: contain;
                 margin: auto;
             }
             @include respond(phone) {

@@ -1,9 +1,11 @@
 footer {
     padding: 3rem 6rem;
     height: 100vh;
+        @include respond(tab-land) {
+        height: auto;
+        }
         @include respond(tab-port) {
         padding: 3rem;
-        height: auto;
         }
         @include respond(phone-small) {
             padding: 0;

@@ -72,35 +72,23 @@
                 <h3 class="cards__card__body-titulo">campaña vacunación antigripal 2023</h3>
                 <p>Ingresa al link que corresponda para descargar el instructivo y ver las sedes donde vacunarte</p>
                 <br>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>CABA - GBA</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>INTERIOR</p></a>
+                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>CABA - GBA</p></a>
+                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>INTERIOR</p></a>
             </div>
         </div>
-        <!-- <div class="cards__card">
-            <img src="./imagenes/pmo.png" alt="">
-            <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">programa médico obligatorio</h3>
-                <p>La Obra Social realiza su oferta prestacional en los tres niveles de atención a través de efectores individuales, redes de efectores contratados y con sus efectores propios. La red de prestadores abarca toda la geografía nacional.
-                    Conce mas del programa ingresando en el link.
-                </p>
-                <br>
-                <a href="./pages/pmo.php" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i><p>conocer más...</p></a>
-            </div>
-        </div> -->
         <div class="cards__card">
             <img src="./imagenes/traslados.png" alt="">
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">traslados</h3>
                 <p>Traslados y derivaciones</p>
                 <br>
-                <p><b>0800-222-3462</b></p>
-                <br>
-                <p><b>Opción 4</b></p>
+                <p><b>0800-222-3462<br>
+                <em>opción 4</em></b></p>
                 <div class="cards__card__body-bd">
                     <p>Normativa Traslados Programados</p>
                     <a href="./imagenes/anexo1normativo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Anexo I</p></a>
                     <p>Formulario Solicitud de Servicios de Traslados</p>
-                    <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Anexo II</p></a>
+                    <a href="./imagenes/anexo2normativo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Anexo II</p></a>
                 </div>
             </div>
         </div>
@@ -110,7 +98,7 @@
                 <h3 class="cards__card__body-titulo">Medicación</h3>
                 <p>Medicación</p>
                 <br>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ver más...</p></a>
+                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ver más...</p></a>
             </div>
         </div>
         <div class="cards__card cards__card-big">
@@ -118,16 +106,16 @@
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">manual instructivo de discapacidad</h3>
                 <p>Instructivo para beneficiarios 2023</p>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
+                <a href="./imagenes/manual-de-procedimiento-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
+                <a href="./imagenes/formularios-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
                 <br>
                 <p>Otros Links de Interés</p>
                 <!-- <div class="cards__card__body-item"> -->
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>guía de prestaciones</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>resumen de historia clínica</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a>
-                <a href="" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a>
+                <a href="./imagenes/Guia-Prestaciones-Discapacidad.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>guía de prestaciones</p></a>
+                <a href="./imagenes/i-c_modelo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>resumen de historia clínica</p></a>
+                <a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
+                <a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a>
+                <a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a>
             <!-- </div> -->
             </div>
         </div>

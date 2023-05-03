@@ -21,8 +21,16 @@
     });
     // Hamburger to X toggle
     $('#nav-toggle').on('click', function(e) {
-      e.preventDefault()
       this.classList.toggle('active');
+    });
+    $('#contacto').on('click', function(e) {
+      var wscreen = $(window).width();
+        console.log(wscreen);
+      if(wscreen < 900) {
+        $('.nav-background').toggleClass('expand', 'fast')
+        $('nav ul').slideToggle('easy');
+        $('#nav-toggle').toggleClass('active')
+      }
     });
     var lastScrollTop = 0;
     $(window).on('scroll', function(e) {
