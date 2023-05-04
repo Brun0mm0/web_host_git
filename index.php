@@ -23,7 +23,7 @@
                     <div class="swiper-slide-item">
                         <div class="swiper-slide-text">
                             <h2>Conoce tu plan y tus beneficios.</h2>
-                            <a href="./pages/pagina-en-construccion.php">Ingresa aquí</a>
+                            <a href="./pages/planes.php">Ingresa aquí</a>
                         </div>
                         <div class="swiper-slide-imagen">
                             <img src="./imagenes/planes-web-02.png" alt="">
@@ -57,7 +57,7 @@
     </section>
     <section class="nav" id="nav-header">
             <div class="nav__btn nav__btn__verde"><a href="/pages/quiero-afiliarme.php"><p>Quiero Afiliarme</p></a></div>
-            <div class="nav__btn nav__btn__azul-oscuro"><a href="/pages/pagina-en-construccion.php"><p>Planes</p></a></div>
+            <div class="nav__btn nav__btn__azul-oscuro"><a href="/pages/planes.php"><p>Planes</p></a></div>
             <div class="nav__btn nav__btn__azul"><a href="http://credencialweb.osssb.com.ar"><p>Portal Web</p></a></div>
             <div class="nav__btn nav__btn__celeste"><a href="/pages/afiliado-adherente.php"><p>Afiliado Adherente</p></a></div>
     </section>
