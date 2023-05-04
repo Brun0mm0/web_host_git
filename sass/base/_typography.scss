@@ -131,7 +131,7 @@ footer p {
         font-size: 2.5rem;
         // text-align: center;
     }
-    @include respond(phone-samll) {
+    @include respond(phone-small) {
         font-size: 2rem;
     }
 }
@@ -239,32 +239,48 @@ footer span, i {
 }
 
 .institucional {
-    & table {
-        font-size: 2rem;
-        text-align: center;
-        border-spacing: 3rem;
-        width: 100%;
+
+    & hr {
+        margin: 5rem 20rem; 
+        color: #52B8E3;
         @include respond(phone) {
-            border-spacing: 1rem;
+            display: none;
         }
     }
-    & th {
-        background-color: $azul-logo-claro;
-        text-transform: capitalize;
-        padding: 0 2rem;
-        font-family: urbane, sans-serif;
-        font-size: 2rem;
-    }
-    & td {
-        text-transform: capitalize;
-        font-weight: 400;
-        font-size: 2.5rem;
-        padding: 1rem;
 
-        & em {
-            font-style: normal;
-            text-transform: uppercase;
-            font-weight: 700;
+    &__row {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        @include respond(phone) {
+            grid-template-columns: 1fr;
+
+        }
+
+        & > div {
+            padding-bottom: 2rem;
+        }
+        & h3 {
+            text-transform: capitalize;
+            grid-column: 1/3;
+            text-align: center;
+        @include respond(phone) {
+            grid-column: 1/2;
+        }
+
+        }
+        & h4 {
+            text-transform: capitalize;
+        }
+        & p {
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 2.5rem;
+            & em {
+                text-transform: uppercase;
+                font-style: normal;
+                font-weight: 700;
+            }
         }
     }
 }

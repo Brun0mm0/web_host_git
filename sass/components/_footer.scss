@@ -1,9 +1,9 @@
 footer {
     padding: 3rem 6rem;
-    height: 100vh;
-        @include respond(tab-land) {
-        height: auto;
-        }
+    // height: 100vh;
+    //     @include respond(tab-land) {
+    //     height: auto;
+    //     }
         @include respond(tab-port) {
         padding: 3rem;
         }
@@ -20,9 +20,9 @@ footer {
         grid-template-columns: 1fr 1fr 0.3fr;
         display: grid;
         margin: auto;
-        padding: 8rem;
+        padding: 5rem;
         gap: 4rem;
-        row-gap: 8rem;
+        // row-gap: 8rem;
         bottom: 0;
         
         @include respond(tab-land) {
@@ -128,10 +128,15 @@ footer {
 & #logo  {
     grid-row: 1/4;
     grid-column: 3/4;
+    margin: 2rem;
     background-image: url("../imagenes/bancario-gris-vert-05.png");
     background-position:center;
     background-size:contain;
     background-repeat: no-repeat;
+
+    // @media only screen and (max-width: 1300px) {
+    //     margin: 0;
+    // }
     
     @include respond(tab-land) {
         display: none;
