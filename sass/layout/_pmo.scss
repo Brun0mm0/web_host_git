@@ -45,3 +45,27 @@
 
     }
 }
+.pmo-item {
+    list-style: initial !important;
+
+    @include respond(phone) {
+        grid-template-columns: 1fr;
+        padding: 0 1.5rem;
+    }
+    
+    & > p {
+        padding-left: 1.5rem;
+    }
+}
+.pmo-item { 
+     & > ul {
+        list-style: initial;
+         & li {
+            margin-bottom: 1rem;
+             &::marker {
+                 font-size: 1.5rem;
+                 color: $azul-logo;
+                }
+            }
+    } 
+    } 
