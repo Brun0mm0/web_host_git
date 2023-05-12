@@ -37,6 +37,7 @@
             <div><p><em>gazzera colombo</em>, mauricio</p></div>
             <div><p><em>calderone</em>, néstor alfonzo</em></p></div>
             <div><p><em>lopez</em>, horacio oscar</p></div>
+            <div><p><em>guarini</em>, fernando</p></div>
         </div>
         <hr>
         <div class="institucional__row">

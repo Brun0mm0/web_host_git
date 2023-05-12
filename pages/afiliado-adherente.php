@@ -68,6 +68,8 @@
                 </tbody>
             </table>
             <p>Enviar comprobante de pago de transferencia por email al siguiente contacto: Dpto. Fiscalización:  <strong><a href="mailto:fiscalizacion.osssb@gmail.com">fiscalizacion.osssb@gmail.com </a></strong> o <strong><a href="mailto:fiscalizacion25@osssb.com.ar">fiscalizacion25@osssb.com.ar</a></strong></p>
+            <p class="centrar"><b>El <em>plan de adherentes</em> se encuentra cerrado para nuevos ingresos / reingresos bajo la <em>Resolución 776/2018</em> de la SSSalus</b></p>  
+    
     </div>
 <?php
     include('../components/footer.html');
