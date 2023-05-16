@@ -966,38 +966,87 @@ nav > ul {
       display: none; } }
 
 .pmo-listas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 6rem;
-  padding-inline: 6rem; }
+  padding: 0 6rem;
+  list-style: outside; }
   @media only screen and (max-width: 37.5em) {
     .pmo-listas {
-      grid-template-columns: 1fr;
-      padding-inline: 3rem; } }
-
-.pmo-listas {
-  list-style: outside; }
+      padding: 0 1.5rem; } }
 
 .pmo-listas > li::marker {
   font-size: 1.5rem;
   color: #009ADA; }
 
 .pmo-listas > li > p {
-  font-size: 1.8rem;
-  font-style: italic; }
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 1rem; }
 
 .pmo-single {
   grid-template-columns: 1fr; }
+
+.letras {
+  list-style-type: lower-latin; }
+  .letras li::marker {
+    font-size: 1.6rem; }
+  .letras p {
+    font-weight: 200 !important;
+    padding-left: 1rem; }
 
 .pmo-alfa {
   list-style: lower-latin; }
 
 .pmo-square {
-  list-style: square; }
+  list-style: square;
+  padding: 0 6rem; }
   .pmo-square li::marker {
+    font-size: 1.5rem;
     color: #02B57E; }
   .pmo-square p {
-    margin: 0; }
+    margin-bottom: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .pmo-square {
-      padding-inline: 0; } }
+      padding: 0 1.5rem 0 2rem; } }
+
+.numeros {
+  list-style: decimal; }
+  .numeros li::marker {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #009ADA; }
+
+.tildes {
+  list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/></svg>"); }
+  .tildes li::marker {
+    font-size: 3rem; }
+
+.medical {
+  list-style-type: disc;
+  vertical-align: middle; }
+  .medical li::marker {
+    font-size: 1.5rem;
+    color: #009ADA; }
+  .medical p {
+    margin-left: 0; }
+
+.columnas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem; }
+
+.pmo-item {
+  list-style: initial !important; }
+  @media only screen and (max-width: 37.5em) {
+    .pmo-item {
+      grid-template-columns: 1fr;
+      padding: 0 1.5rem; } }
+  .pmo-item > p {
+    padding-left: 1.5rem; }
+
+.pmo-item > ul {
+  list-style: initial; }
+  .pmo-item > ul li {
+    margin-bottom: 1rem; }
+    .pmo-item > ul li::marker {
+      font-size: 1.5rem;
+      color: #009ADA; }
