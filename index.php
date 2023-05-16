@@ -127,5 +127,6 @@
         include('./components/footer.html');
         ?>
     <script src="./components/script.js?1"></script>
+    <script type="text/javascript">var s=document.createElement("script");s.src="https://api.wcx.cloud/widget/?id=c6f4c0a3e0cc456b9e75c2031ae68fb3";document.head.appendChild(s);</script>
 </body>
 </html>
