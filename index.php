@@ -93,12 +93,12 @@
             </div>
         </div>
         <div class="cards__card">
-            <img src="./imagenes/medicacion.png" alt="">
+            <img src="./imagenes/poba.png" alt="">
             <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">Medicación</h3>
-                <p>Medicación</p>
+                <h3 class="cards__card__body-titulo">POBA</h3>
+                <p>Ingresa a la web de la policlínica bancaria</p>
                 <br>
-                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ver más...</p></a>
+                <a href="https://www.policlinicabancaria.com.ar/" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ingresar</p></a>
             </div>
         </div>
         <div class="cards__card cards__card-big">
@@ -110,12 +110,29 @@
                 <a href="./imagenes/formularios-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
                 <br>
                 <p>Otros Links de Interés</p>
-                <!-- <div class="cards__card__body-item"> -->
-                <a href="./imagenes/Guia-Prestaciones-Discapacidad.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>guía de prestaciones</p></a>
-                <a href="./imagenes/i-c_modelo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>resumen de historia clínica</p></a>
                 <a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
                 <a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a>
                 <a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a>
+                
+                <!-- <ul class="nav__list">
+                    <li> 
+                        <a href="#!">Otros Links de Interés <span class="material-symbols-outlined">expand_more</span></a>
+                        <ul class="nav-dropdown"> -->
+                            <!-- <li><a href="./imagenes/Guia-Prestaciones-Discapacidad.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>guía de prestaciones</p></a></li> -->
+                            <!-- <li><a href="./imagenes/i-c_modelo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>resumen de historia clínica</p></a></li> -->
+                            <!-- <li><a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a></li>
+                            <li><a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a></li>
+                            <li><a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a></li> -->
+                        <!-- </ul>
+                    </li>
+                </ul> -->
+                
+                <!-- <div class="cards__card__body-item"> -->
+                
+                
+                
+                
+                
             <!-- </div> -->
             </div>
         </div>

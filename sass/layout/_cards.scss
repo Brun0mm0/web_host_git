@@ -51,6 +51,24 @@
                 grid-template-columns: auto;
                 // justify-content: center;
             }
+            & li {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                
+                & a {
+                    text-decoration: none;
+                    font-family: "roboto-condensed", sans-serif;
+                    color: $black;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    vertical-align: middle;
+                    
+                    & i {
+                        margin: auto;
+                    } 
+                }
+            }
         }
 
 

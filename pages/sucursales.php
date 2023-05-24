@@ -124,7 +124,7 @@
             </ul>
         </div>
             <div><hr></div>
-        <div>
+        <!-- <div>
             <h4>CHACO</h4>
         </div>
         <div class="contactos-sucursales">
@@ -135,7 +135,7 @@
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (0362) 4426756 / (0362) 4420493</p></li>
             </ul>
         </div>
-        <div><hr></div>
+        <div><hr></div> -->
         <div>
             <h4>CHUBUT</h4>
         </div>
@@ -164,18 +164,6 @@
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (0351) 4242759 / (0351) -4264940</p></li>
                 <li><p>Fax: (0351) 4264941</p></li>
-            </ul>
-            <ul>
-                <li><p><b>Marcos Juárez</b></p></li>
-                <li><p><span class="material-symbols-outlined">location_on</span> Alem 381 (CP 2580)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> (03472) 428815</p></li>
-            </ul>
-            <ul>
-                <li><p><b>Río Cuarto</b></p></li>
-                <li><p><span class="material-symbols-outlined">location_on</span> Lavalle 836 (CP 5800)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> (0358) 46-44777</p></li>
             </ul>
             <ul>
                 <li><p><b>Villa María</b></p></li>
@@ -250,15 +238,8 @@
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (02625) 42-5984</p></li>
             </ul>
             <ul>
-                <li><p><b>Mendoza</b></p></li>
-                <li><p><span class="material-symbols-outlined">location_on</span> España 1234 (CP 5500)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
-                <li><p><span class="material-symbols-outlined symbol-none">call</span> (0261) 4234353/4231683</p></li>
-                <li><p>Fax: (0261) 4380585</p></li>
-            </ul>
-            <ul>
                 <li><p><b>San Rafael</b></p></li>
-                <li><p><span class="material-symbols-outlined">location_on</span> Comandante Salas 418 (CP 5600))</p></li>
+                <li><p><span class="material-symbols-outlined">location_on</span> Comandante Salas 418 (CP 5600)</p></li>
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (0260) 442-3959</p></li>
             </ul>
@@ -276,7 +257,7 @@
             </ul>
         </div>
         <div><hr></div>
-        <div>
+        <!-- <div>
             <h4>RÍO NEGRO</h4>
         </div>
         <div class="contactos-sucursales">
@@ -287,7 +268,7 @@
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (02920) 42-8690</p></li>
             </ul>
         </div>
-        <div><hr></div>
+        <div><hr></div> -->
         <div>
             <h4>SALTA</h4>
         </div>
@@ -331,11 +312,11 @@
         </div>
         <div><hr></div>
         <div>
-            <h4>SANTA FÉ</h4>
+            <h4>SANTA FE</h4>
         </div>
         <div class="contactos-sucursales">
             <ul>
-                <li><p><b>Santa Fé</b></p></li>
+                <li><p><b>Santa Fe</b></p></li>
                 <li><p><span class="material-symbols-outlined">location_on</span> Corrientes 2922 (CP 3000)</p></li>
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> 0800-222-3462 (OPCIÓN 5)</p></li>
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (0342) 458-2265</p></li>

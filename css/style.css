@@ -160,6 +160,9 @@ footer p {
     footer p {
       font-size: 2rem; } }
 
+.centrar {
+  text-align: center; }
+
 .footer-item p {
   margin-bottom: 0; }
 
@@ -883,6 +886,19 @@ nav > ul {
         .cards__card-big {
           grid-column: auto;
           grid-template-columns: auto; } }
+      .cards__card-big li {
+        display: flex;
+        justify-content: center;
+        text-align: center; }
+        .cards__card-big li a {
+          text-decoration: none;
+          font-family: "roboto-condensed", sans-serif;
+          color: #000000;
+          font-size: 2rem;
+          font-weight: 500;
+          vertical-align: middle; }
+          .cards__card-big li a i {
+            margin: auto; }
     .cards__card > img {
       align-self: end;
       max-height: 100%;
@@ -992,6 +1008,16 @@ nav > ul {
     .pmo-square {
       padding: 0 1.5rem 0 2rem; } }
 
+<<<<<<< HEAD
+=======
+.numeros {
+  list-style: decimal; }
+  .numeros li::marker {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #009ADA; }
+
+>>>>>>> ab6e191e8c2735e9096bc7b16c6f8ae9ebfe516d
 .tildes {
   list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/></svg>"); }
   .tildes li::marker {

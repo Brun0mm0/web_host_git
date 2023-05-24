@@ -7,7 +7,7 @@
         include("../components/header.html") ?>
     <div class="container">
         <div>
-            <h2>Atención Médico Asistencial</h2>
+            <h2>Plan Médico Asistencial</h2>
         </div>
         <div>
             <h3>1- ATENCIÓN MÉDICO ASISTENCIAL</h3>
@@ -417,12 +417,14 @@
             <p>Se garantiza el acceso con el 100% de cobertura a los medicamentos, insumos y prestaciones incluidos en el Sistema Único de Reintegro por Gestión de Enfermedades, sobre la base de lo dispuesto por la Resolución Nº 465/2021-SSSALUD y sus normas complementarias, para los beneficiarios de Agentes del Seguro de Salud.</p>
         </div>
         <div>
-            <h3>8- OTRAS COBERTURAS CUIDADOS PALIATIVOS</h3>
+            <h3>8- OTRAS COBERTURAS</h3>
         </div>
         <div>
-            <p>El cuidado paliativo es la asistencia activa y total de los pacientes por un equipo multidisciplinario, cuando la expectativa de vida del paciente no supera el lapso de 6 meses, por no responder al tratamiento curativo que le fue impuesto. Los objetivos aquí serán aliviar el dolor, los síntomas y el abordaje psicosocial del paciente. La cobertura estará dada en función del marco general que marca el PMO, brindando las prestaciones que se mencionan en los Anexos II y III con un 100% de cobertura.</p>
-            <br>
             <ul class="pmo-listas">
+                <li>
+                    <p>CUIDADOS PALIATIVOS</p>
+                    </li>
+                    <p>El cuidado paliativo es la asistencia activa y total de los pacientes por un equipo multidisciplinario, cuando la expectativa de vida del paciente no supera el lapso de 6 meses, por no responder al tratamiento curativo que le fue impuesto. Los objetivos aquí serán aliviar el dolor, los síntomas y el abordaje psicosocial del paciente. La cobertura estará dada en función del marco general que marca el PMO, brindando las prestaciones que se mencionan en los Anexos II y III con un 100% de cobertura.</p>
                 <li>
                     <p>HEMODIÁLISIS Y DIÁLISIS PERITONEAL CONTÍNUA AMBULATORIA</p>
                     <ul>
@@ -468,6 +470,223 @@
                         </li>
                     </ul>
                 </li>
+            </ul>
+        </div>
+        <div>
+            <h3>9- COBERTURA ESPECÍFICO</h3>
+        </div>
+        <div>
+            <ul class="pmo-listas">
+                <li>
+                    <p>
+                    DICAPACIDAD
+                    </p>
+                </li>
+                    <p>Se garantiza el acceso integral a la cobertura establecida en la Ley Nº 24.901 y su
+                    Decreto reglamentario, en el marco del Nomenclador de Prestaciones Básicas para
+                    personas con discapacidad según lo establecido por resolución N° 428/99 MSAL y normas
+                    complementarias.</p>
+                <li>
+                    <p>HIV - ADICCIONES - ALCOHOLISMO</p>
+                </li>
+                <p>Se dará cobertura según <b>Ley N° 24.455</b>.</p>
+                <p>Cobertura el 100% de los tratamientos médicos, psicológicos y farmacológicos.<br>
+                Los beneficiarios contarán con una atención ambulatoria y de internación tanto para
+                desintoxicación como de internación en comunidades a través de los siguientes servicios:</p>
+                <p><em><small>Consulta y Orientación, Hospital de Día, Hospital de Noche, Internación Psiquiátrica para
+                desintoxicación con terapéutica y medicación específica, Internación en “comunidades
+                terapéuticas” autorizadas.</small></em></p>
+                <li>
+                    <p>OBESIDAD</p>
+                </li>
+                <p>Se dará cobertura, según <b>Ley Nº 26.396 (Resolución N° 742/2009-MSAL Anexo I)</b>
+                    Cobertura de pacientes adultos con índice de masa corporal (IMC) igual o mayor a treinta
+                    (30) con al menos una comorbilidad.</p>
+                <ul class="pmo-square numeros">
+                    <li>
+                        <p>COBERTURA AMBULATORIA</p>
+                    </li>
+                    <li>
+                        <p>COBERTURA DE SEGUIMIENTO DEL TRATAMIENTO:</p>
+                    </li>
+                    <li>
+                        <p>TRATAMIENTO FARMACOLÓGICO</p>
+                        <ul>
+                            <p>Estarán cubiertos con el SETENTA POR CIENTO (70%) de descuento:</p>
+                            <li><p>ORLISTAT - Inhibidor de la absorción de grasas</p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>TRATAMIENTOS QUIRÚRGICOS PARA ÍNDICE DE MASA CORPORAL IGUAL O
+                            MAYOR A CUARENTA (40) KG/M2</p>
+                    </li>
+                    <p><b>PROCEDIMIENTO QUIRÚRGICOS CON COBERTURA</b></p>
+                    <ul class="pmo-square">
+                        <li>
+                            <p>Banda gástrica ajustable (BGA)</p>
+                        </li>
+                        <li>
+                            <p>By-pass gástrico</p>
+                        </li>
+                    </ul>
+                </ul> <br>
+                    <li><p>CELIAQUÍA</p></li>
+                    <p>Se dará cobertura, según <b>Ley Nº 26.588</b> y su modificatoria <b>Ley Nº 27.196</b> y Decreto
+                    Reglamentario Nº 528/2011 –PEN y su modificatoria Decreto Nº 754/2015- PEN. Se
+                    brindará la cobertura en concepto de harinas y premezclas libres de gluten acorde al
+                    monto establecido en la RESOL-2019-775-APN-SGS#MSYDS. Conforme a la <b>Resolución
+                    N° 102/2011 MSAL</b>, se incorpora la pesquisa a través del marcador sérico IgA para la
+                    detección de la enfermedad celíaca.</p>
+                    <p>Se garantiza el acceso a las determinaciones incluidas en la Resolución N° 1408/2017
+                    MSAL a fin de acreditar la condición de paciente celíaco mediante la “constancia médica de
+                    Enfermedad Celiaca”.</p>
+                    <li>
+                        <p>IDENTIDAD DE GÉNERO</p>
+                    </li>
+                    <p>Se dará cobertura, según lo establecido en la <b>Ley Nº 26.743</b>, a tratamientos hormonales
+                    como quirúrgicos de reasignación genital total o parcial y según <b>Resolución N°
+                    3159/2019-MSyDS a los tratamientos de Hormonización</b>.</p>
+                <li>
+                    <p>DIABETES MELLITUS</p>
+                </li>
+                <p>Se dará cobertura, según <b>Ley Nº 26.914 y Resolución 764/2018-MSyDS</b> 100% en
+                    medicamentos y reactivos de autocontrol para pacientes diabéticos (cualquier tipo), como
+                    así también en cantidades necesarias, según lo prescriba su médico. Cobertura del 100%
+                    en insulina, jeringas y agujas; tiras reactivas e hipoglucemiantes orales. Para pacientes
+                    diabéticos insulinodependientes lábiles participantes en programas específicos de
+                    prevención secundaria se seguirán los lineamientos del tratamiento intensificado, según la
+                    resolución vigente.</p>
+                <li>
+                    <p>REPRODUCCIÓN MÉDICAMENTE ASISTIDA</p>
+                </li>
+                <p>Se dará cobertura, según <b>Ley Nº 26.862 y decreto reglamentario 956/2013</b>.<br>
+                Tiene por objeto garantizar el acceso integral a los procedimientos y técnicas médico-
+                asistenciales de reproducción médicamente asistida.<br>
+                Se entiende por reproducción médicamente asistida a los procedimientos y técnicas
+                realizados con asistencia médica para la consecución de un embarazo. Quedan
+                comprendidas las técnicas de baja y alta complejidad que incluyan o no la donación de
+                gametos y/o embriones.<br>
+                Podrán incluirse nuevos procedimientos y técnicas desarrollados mediante avances
+                técnico- científicos, cuando sean autorizados por la autoridad de aplicación.<br>
+                Se brinda al 100% la cobertura integral interdisciplinaria del abordaje, el diagnóstico, los
+                medicamentos y las terapias de apoyo y los procedimientos y las técnicas que la
+                Organización Mundial de la Salud define como de reproducción médicamente asistida.</p>
+                <li>
+                    <p>CIRUGÍAS RECONSTRUCTIVAS</p>
+                </li>
+                <p>Se dará cobertura, según <b>Ley Nº 26.872</b>, a las cirugías reconstructivas como
+                consecuencia de una mastectomía por patología mamaria, así como la provisión de las
+                prótesis necesarias.</p>
+                <li>
+                    <p>ABORDAJE INTEGRAL E INTERDISCIPLINARIO DE LAS PERSONAS QUE
+                    PRESENTAN TRASTORNOS DEL ESPECTRO AUTISTA</p>
+                </li>
+                <p>Se dará cobertura según <b>Ley Nº 27.043</b>.</p>
+                <li>
+                    <p>PACIENTES OSTOMIZADOS</p>
+                </li>
+                <p>Se dará cobertura total de los dispositivos y elementos accesorios para las personas
+                ostomizadas según lo establece la <b>Ley Nº 27.071</b>.</p>
+                <li>
+                    <p>ABORDAJE INTEGRAL E INTERDISCIPLINARIO DE LOS SUJETOS QUE
+                    PRESENTAN DIFICULTADES ESPECÍFICAS DEL APRENDIZAJE</p>
+                </li>
+                <p>Se dará cobertura según <b>Ley Nº 27.306</b>.</p>
+                <li>
+                    <p>LECHES MEDICAMENTOSAS</p>
+                </li>
+                <p>Se dará cobertura, según <b>Ley Nº 27.305</b>, que establece la obligatoriedad de la cobertura
+                    integral de leche medicamentosa para consumo de quienes padecen alergia a la proteína de
+                    la leche vacuna (APLV), así como también de aquellos que padecen desórdenes,
+                    enfermedades o trastornos gastrointestinales y enfermedades metabólicas, las que
+                    quedan incluidas en el Programa Médico Obligatorio (PMO), sin límite de edad para esta
+                    cobertura. Requiere prescripción médica que justifique la indicación.</p>
+                    <li>
+                        <p>PROTECCIÓN INTEGRAL PARA PERSONAS TRASPLANTADAS (LEYES N° 26.928 y 27.447)</p>
+                    </li>
+                    <p>Garantizar a las personas trasplantadas y las que se encuentren en lista de espera la
+                    cobertura del ciento por ciento (100%) en la provisión de medicamentos, estudios
+                    diagnósticos y prácticas de atención de su estado de salud de todas aquellas patologías
+                    que estén, directa o indirectamente, relacionadas con el trasplante.</p>
+                    <li>
+                        <p>FIBROSIS QUÍSTICA</p>
+                    </li>
+                    <p>Según la Ley 27.552 y la Resolución 2894/2019 MSAL, se dará cobertura al 100 % de los
+                    medicamentos y productos médicos destinados al tratamiento de la Fibrosis Quística
+                    incorporada al apartado 7.3 del Anexo I de la Resolución Nº 201/02 MSAL.<br>
+                    El Plan Médico Asistencial cumple con el Programa de Vigilancia de la Salud y Control de
+                    Enfermedades (VIGIA) en el ámbito de la Seguridad Social (según ordena el Decreto
+                    865/2000), a fin de garantizar la salud de la población en especial en emergencias
+                    sociales en donde hay que adoptar todas las medidas necesarias para que el número de
+                    personas vulnerables a enfermedades transmisibles y no transmisibles no aumente.</p>
+                    <li>
+                        <p>INTERRUPCIÓN VOLUNTARIA DEL EMBARAZO</p>
+                    </li>
+                    <p><b>En el marco de la Ley 27.610, se dará cobertura integral y oportuna a las personas
+                    gestantes a fin de acceder a la interrupción voluntaria del embarazo y a la atención
+                    postaborto.</b></p>
+                    <ul>
+                        <li>
+                            <p>Art. 4º-</p>
+                        </li>
+                        <p>Interrupción voluntaria del embarazo. Las mujeres y personas con otras
+                        identidades de género con capacidad de gestar tienen derecho a decidir y
+                        acceder a la interrupción de su embarazo hasta la semana catorce (14),
+                        inclusive, del proceso gestacional</p>
+                        <li>
+                            <p>Art. 5º-</p>
+                        </li>
+                        <p>Derechos en la atención de la salud. Toda persona gestante tiene derecho a
+                        acceder a la interrupción de su embarazo en los servicios del sistema de salud o
+                        con su asistencia, en un plazo máximo de diez (10) días corridos desde su
+                        requerimiento y en las condiciones que se establecen en la presente ley y en las
+                        leyes 26.485, 26.529 y concordantes.</p>
+                    </ul>
+                    <li>
+                        <p>10- EXCLUSIONES DE COBERTURA</p>
+                    </li>
+                    <p>Los tratamientos, prácticas o cirugías enunciados a continuación no tienen cobertura:</p>
+                    <ul class="pmo-square">
+                        <li>
+                            <p>No avalados científicamente.</p>
+                        </li>
+                        <li>
+                            <p>En etapa experimental.</p>
+                        </li>
+                        <li>
+                            <p>Que se opongan a normas legales vigentes.</p>
+                        </li>
+                        <li>
+                            <p>Que se contrapongan al proceso natural de vida del individuo.</p>
+                        </li>
+                        <li>
+                            <p>Supuestos atendidos por las ART.</p>
+                        </li>
+                        <li>
+                            <p>Extras sanatoriales.</p>
+                        </li>
+                        <li>
+                            <p>Ambulancia aérea.</p>
+                        </li>
+                        <li>
+                            <p>Podología, cosmiatría, hidroterapia. Terapias o curas de revitalización o
+                            rejuvenecimiento, anti-stress.</p>
+                        </li>
+                        <li>
+                            <p>Medicina alternativa.</p>
+                        </li>
+                        <li>
+                            <p>Tratamientos y operaciones no reconocidas por Sociedades Científicas y/o
+                            Instituciones Oficiales.</p>
+                        </li>
+                        <li>
+                            <p>Antiseborreicos, bio-organoterápicos capilares, champúes (salvo para pediculosis).</p>
+                        </li>
+                        <li>
+                            <p>Tratamientos desensibilizantes de alergias/vacunas que no figuren en el Manual
+                            Farmacéutico.</p>
+                        </li>
+                    </ul>
             </ul>
         </div>
     </div>

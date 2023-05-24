@@ -12,7 +12,7 @@
             <p><a href="#s300j"># <em>plan</em> S-300J</a></p>
             <p><a href="#s300e"># <em>plan</em> S-300E</a></p>
         </div>
-        <p>Conocé mas del <em>programa medico obligatorio</em> <a href="./pmo.php">ingresando aquí</a></p>
+        <p>Conocé mas del <em>plan médico asistencial</em> <a href="./pmo.php">ingresando aquí</a></p>
         <div class="planes__encabezado" id="s100">
             <div class="planes__encabezado-texto">
                 <h3>cuadro de cobertura plan s-100</h3>
