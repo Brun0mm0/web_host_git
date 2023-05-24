@@ -9,7 +9,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: #AADAED;
+  background-color: #f5f5f5;
   scroll-behavior: smooth; }
   @media only screen and (max-width: 81em) {
     html {
@@ -32,7 +32,7 @@ hr {
 .container {
   margin-inline: auto;
   display: grid;
-  background-color: #AADAED;
+  background-color: #f5f5f5;
   grid-gap: 6rem;
   padding: 15rem;
   padding-top: 30rem; }
@@ -144,6 +144,9 @@ footer h3, footer p {
 footer h3 {
   text-align: start;
   font-weight: 300; }
+  @media only screen and (max-width: 37.5em) {
+    footer h3 {
+      text-align: center; } }
 
 footer p {
   font-size: 2.7rem;
@@ -463,7 +466,7 @@ footer {
   right: 0%;
   bottom: auto;
   margin-inline: auto;
-  padding: 3rem;
+  padding: 3rem 5rem;
   display: flex;
   justify-content: center;
   transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -568,6 +571,8 @@ nav > ul {
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
+  border: solid 0.5rem #52B8E3;
+  border-inline: 2rem solid #52B8E3;
   border-radius: 2rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; }
   @media only screen and (max-width: 81em) {
@@ -647,7 +652,7 @@ nav > ul {
       width: 16rem; } }
 
 .contacto_button :hover {
-  background-color: #f5f5f5;
+  background-color: #AADAED;
   border-radius: 3rem;
   border: 0.2rem #009ADA;
   color: #009ADA; }
@@ -862,7 +867,8 @@ nav > ul {
     align-items: start;
     gap: 3rem;
     width: 100%;
-    background-color: #f5f5f5;
+    border: 0.5rem solid #52B8E3;
+    border-bottom: 3rem solid #52B8E3;
     border-radius: 3rem;
     padding: 5rem;
     padding-top: 3; }
@@ -1050,3 +1056,16 @@ nav > ul {
     .pmo-item > ul li::marker {
       font-size: 1.5rem;
       color: #009ADA; }
+
+.vacunacion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  gap: 4rem; }
+
+@media only screen and (max-width: 37.5em) {
+  .vacunacion {
+    grid-template-columns: 1fr; } }
+
+.vacunacion p {
+  vertical-align: middle; }

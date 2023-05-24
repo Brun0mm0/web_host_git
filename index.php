@@ -70,10 +70,9 @@
             <img src="./imagenes/ImagenVacuna.png" alt="">
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">campaña vacunación antigripal 2023</h3>
-                <p>Ingresa al link que corresponda para descargar el instructivo y ver las sedes donde vacunarte</p>
+                <p>Ingresa al link para descargar el instructivo y ver las sedes donde vacunarte</p>
                 <br>
-                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>CABA - GBA</p></a>
-                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>INTERIOR</p></a>
+                <a href="/pages/vacunacion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Saber mas ...</p></a>
             </div>
         </div>
         <div class="cards__card">
@@ -144,5 +143,6 @@
         include('./components/footer.html');
         ?>
     <script src="./components/script.js?1"></script>
+    <script type="text/javascript">var s=document.createElement("script");s.src="https://api.wcx.cloud/widget/?id=c6f4c0a3e0cc456b9e75c2031ae68fb3";document.head.appendChild(s);</script>
 </body>
 </html>

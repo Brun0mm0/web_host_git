@@ -116,6 +116,9 @@ footer h3, footer p {
 footer h3 {
     text-align: start;
     font-weight: 300;
+    @include respond(phone) {
+        text-align: center;
+    }
 }
 
 footer p {
@@ -153,18 +156,18 @@ footer p {
 
 footer p > a {
     text-decoration: none;
-    color: $bg-body;
+    color: $azul-bg;
 }
 
 footer small {
-    color: $bg-body;
+    color: $azul-bg;
     font-weight: 300;
     font-size: 2rem;
 }
 
 footer hr {
     margin: 1rem 0 3rem 0;
-    color: $bg-body;
+    color: $azul-bg;
 }
 footer span, i {
     margin-right: 1rem;
@@ -315,7 +318,7 @@ footer span, i {
 
             & p {
                 text-align: center;
-                color: $bg-body;
+                color: $azul-bg;
                 font-family: urbane, sans-serif;
                 font-weight: 700;
                 font-style: normal;

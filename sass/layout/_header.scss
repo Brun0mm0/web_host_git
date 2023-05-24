@@ -5,7 +5,7 @@
     right: 0%;
     bottom: auto;
     margin-inline: auto;
-    padding: 3rem;
+    padding: 3rem 5rem;
     display: flex;
     justify-content: center;
     transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -146,7 +146,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $bg-body;
+    background-color: $azul-bg;
+    border: solid 0.5rem $azul-logo-claro;
+    border-inline: 2rem solid $azul-logo-claro;
     border-radius: 2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
@@ -170,7 +172,7 @@ nav {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: $bg-body;
+    background-color: $azul-bg;
     // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
@@ -245,7 +247,7 @@ nav {
           background-color: $azul-logo;
           border-radius: 2rem;
           border: 0.2rem $azul-logo;
-          color: $bg-body;
+          color: $azul-bg;
           transition: all 0.3s;
         } 
         
@@ -268,7 +270,7 @@ nav {
     position: fixed;
     top: 6rem;
     right: 10rem;
-    background-color: $bg-body;
+    background-color: $azul-bg;
     // z-index: 1;
     transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
 

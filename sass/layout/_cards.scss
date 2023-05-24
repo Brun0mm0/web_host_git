@@ -20,7 +20,9 @@
         align-items: start;
         gap: 3rem;
         width: 100%;
-        background-color: $bg-body;
+        // background-color: ;
+        border: 0.5rem solid $azul-logo-claro;
+        border-bottom: 3rem solid $azul-logo-claro;
         border-radius: 3rem;
         padding: 5rem;
         padding-top: 3; 

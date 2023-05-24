@@ -37,7 +37,7 @@
       var st = $(this).scrollTop();
       var haeder = $('header');
       if (st > lastScrollTop) {
-        haeder.css({"transform": "translate3d(0px, -16rem, 0px)"})
+        haeder.css({"transform": "translate3d(0px, -20rem, 0px)"})
         e.stopPropagation();
       } else {
         $('header').style
