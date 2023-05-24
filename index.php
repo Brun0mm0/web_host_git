@@ -59,7 +59,7 @@
             <div class="nav__btn nav__btn__verde"><a href="/pages/quiero-afiliarme.php"><p>Quiero Afiliarme</p></a></div>
             <div class="nav__btn nav__btn__azul-oscuro"><a href="/pages/planes.php"><p>Planes</p></a></div>
             <div class="nav__btn nav__btn__azul"><a href="http://credencialweb.osssb.com.ar"><p>Portal Web</p></a></div>
-            <div class="nav__btn nav__btn__celeste"><a href="/pages/afiliado-adherente.php"><p>Afiliado Adherente</p></a></div>
+            <div class="nav__btn nav__btn__celeste"><a href="/pages/coseguros.php"><p>Coseguros</p></a></div>
     </section>
     <!-- ##### -->
     <!-- cards -->
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="cards__card">
+        <!-- <div class="cards__card">
             <img src="./imagenes/poba.png" alt="">
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">POBA</h3>
@@ -99,19 +99,19 @@
                 <br>
                 <a href="https://www.policlinicabancaria.com.ar/" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ingresar</p></a>
             </div>
-        </div>
-        <div class="cards__card cards__card-big">
+        </div> -->
+        <div class="cards__card">
             <img src="./imagenes/icono_discapacidad.png" alt="">
             <div class="cards__card__body">
                 <h3 class="cards__card__body-titulo">manual instructivo de discapacidad</h3>
                 <p>Instructivo para beneficiarios 2023</p>
                 <a href="./imagenes/manual-de-procedimiento-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
                 <a href="./imagenes/formularios-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
-                <br>
-                <p>Otros Links de Interés</p>
+                <!-- <br> -->
+                <!-- <p>Otros Links de Interés</p> -->
                 <a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
-                <a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a>
-                <a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a>
+                <!-- <a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a> -->
+                <!-- <a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a> -->
                 
                 <!-- <ul class="nav__list">
                     <li> 
