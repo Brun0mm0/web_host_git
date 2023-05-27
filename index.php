@@ -138,32 +138,39 @@
     </section>
     <div class="modal">
         <div class="modal__contenedor">
-            <p>De acuerdo a la Ley 27553/2020 y su Decreto Reglamentario PEN 98/2023, los profesionales de la salud pueden prescribir medicamentos de la siguiente manera:</p>
-            <h3>RECETAS VÁLIDAS</h3>
-            <p><b><em>Requisitos de validez</em></b></p>
-            <p>Las recetas electrónicas o digitales con los siguientes requisitos:</p>
-            <ul>
-                <li>
-                    <p><b>Identificación</b>: debe tener identificador único e irrepetible para identificarla en forma unívoca. <b>Es válida para único uso</b>. El formato de esta identificación será definido por la autoridad de aplicación.</p>
-                </li>
-                <li>
-                    <p><b>Contenido</b>: Debe tener la siguiente información en idioma nacional: <em>nombre, apellido, profesión, número de matrícula, domicilio, número telefónico y correo electrónico del profesional de la salud. Debe tener fecha y estar firmadas en forma manuscrita, electrónica o digital.</em></p>
-                </li>
-                <li>
-                    <p><b>Vigencia</b>: Debe tener la fecha de inicio de vigencia, la que puede ser igual o posterior a la fecha de la receta. Tiene una validez por 30 días corridos a para los medicamentos y 60 días para otras prescripciones, salvo excepciones.</p>
-                </li>
-                <li>
-                    <p><b>Integridad e inalterabilidad</b>: el documento electrónico o digital, cualquiera sea su soporte, deberá ser íntegro e inalterable. Cada medicamento se debe entregar por única vez.</p>
-                </li>
-                <li>
-                    <p><b>Seguridad y confidencialidad</b>: la receta debe cumplir con los estándares de seguridad, disponibilidad, inviolabilidad y protección de datos personales, conforme la normativa vigente.</p>
-                </li>
-                <li>
-                    <p><b>Interoperabilidad</b>: La interoperabilidad es la capacidad de los sistemas para intercambiar, utilizar y aplicar información. La receta digital o electrónica deberá usar estándares que permitan el intercambio y el uso de la información con fines sanitarios, estadísticos, de fiscalización y epidemiológicos.</p>
-                </li>
-            </ul>
-            <h3>RECETAS NO VÁLIDAS</h3>
-            <p>Las fotos de las recetas enviadas por WhatsApp, correo electrónico o a través de la web.</p>
+            <div class="modal__contenido">
+
+                <div class="modal__header">
+            </div>
+            <div class="modal__body">
+                <p>De acuerdo a la Ley 27553/2020 y su Decreto Reglamentario PEN 98/2023, los profesionales de la salud pueden prescribir medicamentos de la siguiente manera:</p>
+                <h3>RECETAS VÁLIDAS</h3>
+                <p><b><em>Requisitos de validez</em></b></p>
+                <p>Las recetas electrónicas o digitales con los siguientes requisitos:</p>
+                <ul>
+                    <li>
+                        <p><b>Identificación</b>: debe tener identificador único e irrepetible para identificarla en forma unívoca. <b>Es válida para único uso</b>. El formato de esta identificación será definido por la autoridad de aplicación.</p>
+                    </li>
+                    <li>
+                        <p><b>Contenido</b>: Debe tener la siguiente información en idioma nacional: <em>nombre, apellido, profesión, número de matrícula, domicilio, número telefónico y correo electrónico del profesional de la salud. Debe tener fecha y estar firmadas en forma manuscrita, electrónica o digital.</em></p>
+                    </li>
+                    <li>
+                        <p><b>Vigencia</b>: Debe tener la fecha de inicio de vigencia, la que puede ser igual o posterior a la fecha de la receta. Tiene una validez por 30 días corridos a para los medicamentos y 60 días para otras prescripciones, salvo excepciones.</p>
+                    </li>
+                    <li>
+                        <p><b>Integridad e inalterabilidad</b>: el documento electrónico o digital, cualquiera sea su soporte, deberá ser íntegro e inalterable. Cada medicamento se debe entregar por única vez.</p>
+                    </li>
+                    <li>
+                        <p><b>Seguridad y confidencialidad</b>: la receta debe cumplir con los estándares de seguridad, disponibilidad, inviolabilidad y protección de datos personales, conforme la normativa vigente.</p>
+                    </li>
+                    <li>
+                        <p><b>Interoperabilidad</b>: La interoperabilidad es la capacidad de los sistemas para intercambiar, utilizar y aplicar información. La receta digital o electrónica deberá usar estándares que permitan el intercambio y el uso de la información con fines sanitarios, estadísticos, de fiscalización y epidemiológicos.</p>
+                    </li>
+                </ul>
+                <h3>RECETAS NO VÁLIDAS</h3>
+                <p>Las fotos de las recetas enviadas por WhatsApp, correo electrónico o a través de la web.</p>
+            </div>
+        </div>
         </div>
     </div>
     <!-- ###### -->
