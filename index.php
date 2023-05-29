@@ -141,10 +141,15 @@
             <div class="modal__contenido">
 
                 <div class="modal__header">
-            </div>
-            <div class="modal__body">
-                <p>De acuerdo a la Ley 27553/2020 y su Decreto Reglamentario PEN 98/2023, los profesionales de la salud pueden prescribir medicamentos de la siguiente manera:</p>
-                <h3>RECETAS VÁLIDAS</h3>
+                    <div><p>x</p></div>
+                    <h2>recetas digitales</h2>
+                    </div>
+                    <br>
+                    <div class="modal__body">
+                    <p>De acuerdo a la Ley 27553/2020 y su Decreto Reglamentario PEN 98/2023, los profesionales de la salud pueden prescribir medicamentos de la siguiente manera:</p>
+                <br>
+                    <h3>RECETAS VÁLIDAS</h3>
+                    <br>
                 <p><b><em>Requisitos de validez</em></b></p>
                 <p>Las recetas electrónicas o digitales con los siguientes requisitos:</p>
                 <ul>
@@ -167,7 +172,9 @@
                         <p><b>Interoperabilidad</b>: La interoperabilidad es la capacidad de los sistemas para intercambiar, utilizar y aplicar información. La receta digital o electrónica deberá usar estándares que permitan el intercambio y el uso de la información con fines sanitarios, estadísticos, de fiscalización y epidemiológicos.</p>
                     </li>
                 </ul>
+                <br>
                 <h3>RECETAS NO VÁLIDAS</h3>
+                <br>
                 <p>Las fotos de las recetas enviadas por WhatsApp, correo electrónico o a través de la web.</p>
             </div>
         </div>

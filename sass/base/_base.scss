@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
     background-color: $azul-bg;
+    // overflow: hidden
     
     @include respond(tab-land) { 
         font-size: 56.25%; 
@@ -35,6 +36,19 @@ body {
     // max-width: 1440px;
     // background-color: $azul-bg;
     // box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 8px -1px, rgba(0, 0, 0, 0.3) 0px 1px 5px -1px;
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: $bg-body;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $azul-logo-claro;
+        border-radius: 0.5rem;
+        &:hover {
+            background: $azul-logo;
+        }
+    }
 }
 hr {
     margin: 0 10rem;

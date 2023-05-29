@@ -1,0 +1,68 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: $black, $alpha: 0.3);
+    backdrop-filter: blur(3px);
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 6rem;
+    // display: none;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: $bg-body;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $azul-logo-claro;
+        border-radius: 0.5rem;
+        &:hover {
+            background: $azul-logo;
+        }
+    }
+
+    
+    // &::-webkit-scrollbar {
+    //     width: 1rem;
+    // }
+    // &::-webkit-scrollbar-track {
+    //     background: $bg-body;
+    // }
+    // &::-webkit-scrollbar-thumb {
+    //     background: $azul-logo-claro;
+    //     &:hover {
+    //         background: $azul-logo;
+    //     }
+    // }
+
+    
+    &__contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 80rem;
+        margin: auto;
+    }
+    &__contenido {
+        border-radius: 3rem;
+        background-color: $azul-bg;
+        border: solid 1rem $azul-logo-claro;
+        border-bottom: solid 3rem $azul-logo-claro;
+        padding: 4rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        // overflow-y: auto;
+    }
+    &__body {
+        & ul {
+            list-style: outside;
+            & li::marker{
+                font-size: 1.5rem;
+                color: $azul-logo;
+            }
+        }
+    }
+}
