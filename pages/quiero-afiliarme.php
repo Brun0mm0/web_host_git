@@ -101,8 +101,13 @@
     <ul>
         <li><p><b>Ingresé a trabajar en un banco  y tengo una opción vigente de mi anterior empleo ¿puedo afiliarme?</b></p></li>
         <p>Para que pueda afiliarse, deberá realizar traspaso de obra social, ingresando a la siguiente página:<br> 
-        <a href="">https://www.argentina.gob.ar/servicio/realizar-opcion-de-cambio-de-obra-social</a>,
-            posteriormente deberá informar a su empleador sobre dicha modificación y remitirnos vía mail el comprobante que le fue entregado por la SSSalud, junto con el alta temprana o recibo de haberes, DNI y el formulario de afiliación.<br>
+        <a href="">https://www.argentina.gob.ar/servicio/realizar-opcion-de-cambio-de-obra-social</a></p>
+        <li>
+            <div class="video">
+            <iframe src="https://www.youtube.com/embed/tQyFLnqTV4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </li>
+            <p>Posteriormente deberá informar a su empleador sobre dicha modificación y remitirnos vía mail el comprobante que le fue entregado por la SSSalud, junto con el alta temprana o recibo de haberes, DNI y el formulario de afiliación.<br>
             En el caso que tenga grupo familiar, tendrá que adjuntar la documentación respaldatoria.
         </p><br>
         <li><p><b>Si realizo el traspaso a Bancarios ¿Cuánto tiempo demora mi alta y la de mi grupo familiar primario?</b></p></li>
