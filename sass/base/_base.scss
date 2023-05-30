@@ -87,3 +87,17 @@ hr {
         padding-top: 20rem;
     }
 }
+.video {
+    display: flex;
+    justify-content: center;
+    & iframe {
+        width:560px;
+        height:315px; 
+
+        @include respond(phone) {
+        //    display: none;
+        //    width: 0;
+        width: 100%;
+        }
+    }
+}
