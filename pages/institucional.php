@@ -32,7 +32,7 @@
         </div>
         <hr>
         <div class="institucional__row">
-            <h3>consejo consultivo y de asesoramiento</h3>
+            <h3>consejo consultivo</h3>
             <div><p><em>fichi</em>, alfredo ricardo</p></div>
             <div><p><em>gazzera colombo</em>, mauricio</p></div>
             <div><p><em>calderone</em>, néstor alfonzo</em></p></div>
@@ -47,7 +47,7 @@
      
     </div>
     <?php
-    include('../components/footer.html');
+    include('../components/footer.php');
     ?>
 </body>
 </html>

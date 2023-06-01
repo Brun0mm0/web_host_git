@@ -7,8 +7,8 @@
     ?>
         <div class="container afiliado">
         <h2>Afiliado Adherente</h2>
-        <p>Estimado Afiliado. De acuerdo al Decreto 743/2022 y a la Resolución 2577/2022 del Ministerio de Salud de la Nación, incrementaremos el valor de nuestros planes asistenciales en forma mensual. En consecuencia, el incremento a aplicar para el mes de Junio de 2023 asciende a un 5,49% (cinco coma cuarenta y nueve por ciento), respecto al valor del Plan de Servicio Vigente al 31 de Mayo de 2023.</p>
-        <p>Los nuevos valores <strong>para las cuotas de Junio 2023</strong> son los siguientes:</p>
+        <p>Estimado Afiliado.  De acuerdo al Decreto 743/2022 y a la Resolución 2577/2022 del Ministerio de Salud de la Nación, incrementaremos el valor de nuestros planes asistenciales en forma mensual.   En consecuencia, el   incremento a  aplicar para  el  mes de JULIO de 2023  asciende a un 8,49% (ocho coma cuarenta y nueve por ciento), respecto al valor del Plan de Servicio Vigente al 30 de Junio  de 2023.</p>
+        <p>Los nuevos valores <strong>para las cuotas de Julio 2023</strong> son los siguientes:</p>
             <table>
                 <tbody>  
                     <tr>
@@ -17,38 +17,38 @@
                     </tr>      
                     <tr>
                         <th>Beneficiarios cantidad</th>
-                        <th>Valores a partir de del 01/05/2023</th>
                         <th>Valores a partir de del 01/06/2023</th>
+                        <th>Valores a partir de del 01/07/2023</th>
                     </tr>
                     <tr>
                         <td>Titular o 1 beneficiario</td>
-                        <td>$5.017</td>
                         <td>$5.292</td>
+                        <td>$5.742</td>
                     </tr>
                     <tr>
                         <td>Matrimonio o 2 beneficiarios</td>
-                        <td>$8.725</td>
                         <td>$9.204</td>
+                        <td>$9.985</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 1 hijo o 3 beneficiarios</td>
-                        <td>$11.651</td>
                         <td>$12.290</td>
+                        <td>$13.334</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 2 hijos o 4 beneficiarios</td>
-                        <td>$13.886</td>
                         <td>$14.648</td>
+                        <td>$15.892</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 3 hijos o 5 beneficiarios</td>
-                        <td>$17.248</td>
                         <td>$18.195</td>
+                        <td>$19.740</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 4 hijos o 6 beneficiarios</td>
-                        <td>$20.368</td>
                         <td>$21.486</td>
+                        <td>$23.310</td>
                     </tr>
                 </table>
             </tbody>

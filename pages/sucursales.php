@@ -360,7 +360,7 @@
         </div>
     </div>
     <?php
-        include('../components/footer.html');
+        include('../components/footer.php');
     ?>
 </body>
 </html>

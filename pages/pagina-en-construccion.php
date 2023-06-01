@@ -9,7 +9,7 @@
             <br style="padding-bottom:10rem">
     </div>
     <?php
-    include('../components/footer.html');
+    include('../components/footer.php');
     ?>
 </body>
 </html>

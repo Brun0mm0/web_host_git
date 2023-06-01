@@ -106,6 +106,6 @@
                     Para mas información debe comunicarse con su sucursal o con la oficina de interior al 0800-222-3462 opción 5.
                 </p>
             </div>
-            <?php include("../components/footer.html"); ?>
+            <?php include("../components/footer.php"); ?>
         </body>
         </html>

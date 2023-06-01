@@ -1399,7 +1399,7 @@
             </tr>
         </table>
     </div>
-    <?php include('../components/footer.html'); ?>
+    <?php include('../components/footer.php'); ?>
     
 </body>
 </html>
