@@ -1,6 +1,5 @@
 (function($) { // Begin jQuery
   $(function() { // DOM ready
-      console.log(location.pathname)
     // If a link has a dropdown, add sub menu toggle.
     $('nav ul li a:not(:only-child)').click(function(e) {
       e.preventDefault();

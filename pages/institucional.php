@@ -47,6 +47,7 @@
      
     </div>
     <?php
+    include('../components/emergencias.html');
     include('../components/footer.php');
     ?>
 </body>

@@ -1399,7 +1399,9 @@
             </tr>
         </table>
     </div>
-    <?php include('../components/footer.php'); ?>
+    <?php 
+    include('../components/emergencias.html');
+    include('../components/footer.php'); ?>
     
 </body>
 </html>
