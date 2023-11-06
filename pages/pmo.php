@@ -693,7 +693,9 @@
     
             <?php
                 include('../components/emergencias.html');
-                include("../components/footer.php"); 
+
+                include("../components/footer.html"); 
+
             ?>
     </body>
 </html>

@@ -44,11 +44,13 @@
             <h3>síndico</h3>
             <div><p><em>perez currais</em>, ricardo</p></div>
         </div>
-     
+
     </div>
     <?php
     include('../components/emergencias.html');
-    include('../components/footer.php');
+
+    include('../components/footer.html');
+
     ?>
 </body>
 </html>

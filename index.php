@@ -186,7 +186,7 @@
     <!-- footer -->
     <!-- ###### -->
     <?php
-    include('./components/footer.html');
+    include('./components/footer.php');
     ?>
     <?php 
     include('./components/emergencias.html');
