@@ -893,10 +893,6 @@
                 <td>radiología / endodoncia / periodoncia</td>
                 <td>s/c - s/t - s/l</td>
             </tr>
-            <tr>
-                <td>implantes dentales - por reintegro por tope, un implante por año</td>
-                <td>s/c - c/t - c/l</td>
-            </tr>
             <!-- medicamentos -->
             <tr>
                 <th>medicamentos</th>
@@ -1059,7 +1055,7 @@
                 <img src="../imagenes/s300e.png" alt="">
             </div>
         </div>
-        <!-- FIXME: s-300j -->
+        <!-- FIXME: s-300e -->
         <table>
             <tr>
                 <th>emergencia, urgencias, visita domiciliaria</th>
@@ -1249,10 +1245,6 @@
                 <td>radiología / endodoncia / periodoncia</td>
                 <td>s/c - s/t - s/l</td>
             </tr>
-            <tr>
-                <td>implantes dentales - por reintegro por tope, un implante por año</td>
-                <td>s/c - c/t - c/l</td>
-            </tr>
             <!-- medicamentos -->
             <tr>
                 <th>medicamentos</th>
@@ -1399,7 +1391,9 @@
             </tr>
         </table>
     </div>
-    <?php include('../components/footer.html'); ?>
+    <?php 
+    include('../components/emergencias.html');
+    include('../components/footer.html'); ?>
     
 </body>
 </html>

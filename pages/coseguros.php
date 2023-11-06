@@ -12,6 +12,7 @@
             <br style="padding-bottom:10rem">
     </div>
     <?php
+    include('../components/emergencias.html');
     include('../components/footer.html');
     ?>
 </body>
