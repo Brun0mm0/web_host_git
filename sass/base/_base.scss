@@ -10,7 +10,8 @@
 }
 
 html {
-    font-size: 62.5%;
+    // font-size: 62.5%;
+    font-size: 56.25%; 
     background-color: variables.$azul-bg;
     // overflow: hidden
     
@@ -69,18 +70,18 @@ hr {
     
     @include mixins.respond(tab-land) { 
         grid-gap: 4rem;
-        max-width: 900px;
-        padding: 0 3rem; 
+        max-width: 1200px;
+        padding: 0 4rem; 
         padding-top: 20rem;
 
     }
 
-    // @include mixins.respond(tab-port) { 
-    //     max-width: 600px;  
-    // }
+    @include mixins.respond(tab-port) { 
+        // max-width: 600px;  
+        width: 100%;
+    }
 
     @include mixins.respond(phone) { 
-        width: 100%;
         padding: 0 2rem;
         padding-top: 18rem;
     }

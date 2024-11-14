@@ -2,17 +2,18 @@
 @use '../abstracts/mixins';
 
 .cartilla{
+    &-descargable{
+        display: flex;
+        // flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
     &-titulo {
         margin-bottom: 1rem;
     }
     &-descripcion {
         margin-bottom: 2rem;
-    }
-    &-descargable{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-around;
+        min-width: 8rem;
     }
     &-listas {
         flex: 1;

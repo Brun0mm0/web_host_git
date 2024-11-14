@@ -6,7 +6,10 @@
     include('../components/header.html');
     ?>
         <div class="container cartilla-descargable">
-            <div class="cartilla-s100">
+        <h2>Selecciona un Plan y una Provincia</h2>
+    <div id="formulario-container"></div>
+
+            <!-- <div class="cartilla-s100">
                 <div class="cartilla-encabezado">
                     <h2 class="cartilla-titulo">Plan S100</h2>
                     <p class="cartilla-descripcion">Haga "click" sobre el "link" de su zona y descargue la cartilla.</p>
@@ -75,8 +78,9 @@
                     <li class="cartilla-item"><i class="fa-solid fa-file-arrow-down fa-xl"></i><a href="../imagenes/cartillas/Cartilla-TierraDelFuego.xlsx" class="cartilla-link" download>Tierra del Fuego</a></li>
                     <li class="cartilla-item"><i class="fa-solid fa-file-arrow-down fa-xl"></i><a href="../imagenes/cartillas/Cartilla-Tucuman.xlsx" class="cartilla-link" download>Tucumán</a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
+
 <?php
     include('../components/emergencias.html');
     include('../components/footer.html');
