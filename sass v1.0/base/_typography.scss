@@ -1,6 +1,3 @@
-@use '../abstracts/variables';
-@use '../abstracts/mixins';
-
 @import url('https://use.typekit.net/ktd4gli.css');
 
 html {
@@ -20,7 +17,7 @@ h2 {
     font-style: normal;
     font-size: 4rem;
     text-align: center;
-    color: variables.$azul-logo;
+    color: $azul-logo;
     line-height: 5rem;
 }
 
@@ -36,13 +33,13 @@ h3 {
 h4 {
     font-size: 3rem;
     font-family: urbane, sans-serif;
-    color: variables.$azul-logo;
+    color: $azul-logo;
     line-height: 4rem;
     text-align: center;
 }
 
 hr {
-    color: variables.$azul-logo-claro;
+    color: $azul-logo-claro;
 }
 
 nav {
@@ -50,11 +47,11 @@ nav {
         font-size: 1.6rem;
         text-transform: capitalize;
         a {
-            color: variables.$black;
+            color: $black;
         }
         ul a {
             font-size: 1.6rem;
-            color: variables.$azul-logo;
+            color: $azul-logo;
         }
     }
     }
@@ -67,7 +64,7 @@ ul {
 
 ul > li > p {
     // margin-bottom: 1rem;
-    @include mixins.respond(phone) {
+    @include respond(phone) {
         margin-inline: auto;
     }
 }
@@ -83,7 +80,7 @@ ul > li > p > b {
     font-family: urbane, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: variables.$azul-logo;
+    color: $azul-logo;
 }
 
 ul > li > ul > li {
@@ -107,7 +104,7 @@ ul > li > ul > li > b > p {
 }
 
 a {
-    color: variables.$azul-logo;
+    color: $azul-logo;
     font-weight: 600;
 }
 
@@ -119,7 +116,7 @@ footer h3, footer p {
 footer h3 {
     text-align: start;
     font-weight: 300;
-    @include mixins.respond(phone) {
+    @include respond(phone) {
         text-align: center;
     }
 }
@@ -128,16 +125,16 @@ footer p {
     font-size: 2.7rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    @include mixins.respond(tab-land) {
+    @include respond(tab-land) {
 
         text-align: center;
     }
-    @include mixins.respond(phone) {
+    @include respond(phone) {
         text-align: center;
         font-size: 2.5rem;
         // text-align: center;
     }
-    @include mixins.respond(phone-small) {
+    @include respond(phone-small) {
         font-size: 2rem;
     }
 }
@@ -159,23 +156,23 @@ footer p {
 
 footer p > a {
     text-decoration: none;
-    color: variables.$azul-bg;
+    color: $azul-bg;
 }
 
 footer small {
-    color: variables.$azul-bg;
+    color: $azul-bg;
     font-weight: 300;
     font-size: 2rem;
 }
 
 footer hr {
     margin: 1rem 0 3rem 0;
-    color: variables.$azul-bg;
+    color: $azul-bg;
 }
 footer span, i {
     margin-right: 1rem;
     text-align: center;
-    @include mixins.respond(phone) {
+    @include respond(phone) {
         display: none;
     }
 }
@@ -189,7 +186,7 @@ footer span, i {
         border-radius: 50%;
         height: 1rem;
         width: 1rem;
-        background-color: variables.$verde-logo;
+        background-color: $verde-logo;
     }
 }
 
@@ -203,7 +200,7 @@ footer span, i {
         border-radius: 50%;
         height: 0.7rem;
         width: 0.7rem;
-        background-color: variables.$azul-logo;
+        background-color: $azul-logo;
     }
 }
 
@@ -212,7 +209,7 @@ footer span, i {
     & p {
         // font-family: "roboto-condensed", sans-serif;
         text-align: center;
-        color: variables.$azul-logo;
+        color: $azul-logo;
         font-size: 2.5rem;
         font-weight: 600;
 
@@ -253,7 +250,7 @@ footer span, i {
     & hr {
         margin: 5rem 20rem; 
         color: #52B8E3;
-        @include mixins.respond(phone) {
+        @include respond(phone) {
             display: none;
         }
     }
@@ -262,7 +259,7 @@ footer span, i {
         display: grid;
         gap: 1rem;
         grid-template-columns: repeat(2, 1fr);
-        @include mixins.respond(phone) {
+        @include respond(phone) {
             grid-template-columns: 1fr;
 
         }
@@ -274,7 +271,7 @@ footer span, i {
             text-transform: capitalize;
             grid-column: 1/3;
             text-align: center;
-        @include mixins.respond(phone) {
+        @include respond(phone) {
             grid-column: 1/2;
         }
 
@@ -297,7 +294,7 @@ footer span, i {
 
 #direccion {
     font-size: 2.5rem;
-    @include mixins.respond(phone-small) {
+    @include respond(phone-small) {
         font-size: 2.3rem;
     }
 }
@@ -311,17 +308,17 @@ footer span, i {
             text-align: center;
             padding: 10rem 0;
             
-            @include mixins.respond(tab-land) {
+            @include respond(tab-land) {
                 padding: 8rem 0;
             }
 
-            @include mixins.respond(phone) {
+            @include respond(phone) {
                 padding: 4rem 0;
             }
 
             & p {
                 text-align: center;
-                color: variables.$azul-bg;
+                color: $azul-bg;
                 font-family: urbane, sans-serif;
                 font-weight: 700;
                 font-style: normal;
@@ -337,7 +334,7 @@ footer span, i {
 
         &__body {
             &-titulo {
-                color: variables.$azul-logo;
+                color: $azul-logo;
             }
             & h3 {
                 font-size: 3rem;
@@ -377,7 +374,7 @@ footer span, i {
                         font-size: 3rem;
                     }
                 }
-                @include mixins.respond(phone) {
+                @include respond(phone) {
                     grid-template-columns: 1fr;
                 }
             }
@@ -401,10 +398,10 @@ footer span, i {
     font-size: 1.6rem;
     th {
         font-size: 2rem;
-        color: variables.$azul-logo;
+        color: $azul-logo;
         text-align: center;
         padding: 1rem;
-        @include mixins.respond(phone) {
+        @include respond(phone) {
             font-size: 1.6rem;
 
         }
@@ -414,7 +411,7 @@ footer span, i {
         text-align: center;
     }
     table, th, td {
-        border: 1px solid variables.$verde-logo;
+        border: 1px solid $verde-logo;
         border-collapse: collapse;
       }
 }

@@ -1,0 +1,291 @@
+// .cartilla {
+//     &-container {
+//         height: 100%;
+//         padding: 0 5rem;
+//         padding-top: 19rem;
+//         padding-bottom: 5rem;
+//         width: 100%;
+//         @include respond(phone) {
+//             padding: 1rem 2rem;
+//             padding-top: 14rem;
+//         }
+//     }
+//     &-window {
+//         min-height: calc(100vh - 5rem);
+//         border-radius: 3rem;
+//         border: solid .5rem $azul-logo-claro;
+//     }
+//     &-buscador {
+//         display: flex;
+//         justify-content: space-around;
+//         height: 20rem;
+//         width: 100%;
+//         // justify-content: center;
+//         align-items: center;
+//         border-bottom: $azul-logo-claro .3rem solid;
+//         // background-color: orangered;
+//         @include respond(phone) {
+//             height: auto;
+//             padding: 1rem;
+//         }
+
+//         & div, form {
+//             flex-grow: 1 1;
+//         }
+//         & select {
+//             appearance: none;
+//             border: 0;
+//             outline: 0;
+//             background: none;
+//             box-shadow: none;
+//             &::-ms-expand {
+//                 display: none;
+//             }
+//         }
+//         @include respond(phone) {
+//             flex-direction: column;
+//         }
+//     }
+//     &-resultados {
+//         // height: calc(100% - 20rem);
+//         width: 100%;
+//         // background-color: $bg-body;
+//         &-window {
+//             // height: 100%;
+//         }
+//         &-cartillas {
+//             max-height: calc(100% - 15rem);
+//             width: 100%;
+//             display: flex;
+//             // flex-direction: column;
+//             flex-wrap: wrap;
+//             justify-content: space-around;
+//             padding: 0 5rem;
+//             // align-items: end;
+//             overflow-y: auto;
+//             gap: 3rem;
+
+//             @include respond(phone) {
+//                 padding: 0 2rem;
+//                 gap: 0;
+//             }
+//         }
+//         &-footer {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//         }
+//         &-pagination {
+//             // height: 6rem;
+//         }
+//         &-handler {
+//             width: 100%;
+//             padding: 1rem 5rem;
+//             display: flex;
+//             justify-content: end;
+
+//             @include respond(phone) {
+//                 justify-content: center;
+//             }
+//         }
+//         &-button {
+//             padding: .5rem 1rem;
+//             color: $azul-logo;
+//             border: .2rem $bg-body solid;
+//             border-radius: .5rem;
+//             background-color: $azul-bg;
+            
+//             font-size: 1.8rem;
+//             letter-spacing: .1rem;
+//             font-weight: 700;
+//             transition: all .1s;
+//             cursor: pointer;
+            
+//             &:hover {
+//                 color: $azul-logo;
+//                 border: .2rem $azul-logo-claro solid;
+//                 background-color: #fff;
+//             }
+
+//             &:active {
+//                 transform: translateY(.1rem);
+//             }
+            
+//             &:disabled {
+//                 color: $bg-body;
+                
+//                 &:hover {
+//                     padding: .5rem 1rem;
+//                     border: .2rem $bg-body solid;
+//                     // background-color: #fff;
+//                     cursor: pointer;
+//                 }
+//             }
+//         }
+//     }
+//     &-form {
+//         width: 50rem;
+//         @include respond(phone) {
+//             width: 100%;
+//         }
+//     }
+
+//     &-contacto {
+//         padding: 2rem;
+//         border-bottom: .2rem $bg-body solid;
+//         width: 40rem;
+//         // line-height: rem;
+//         font-size: 2rem;
+//         text-align: end;
+//         vertical-align: middle;
+//         & > :not(:first-child) {
+//             display: flex;
+//             align-items: center;
+//             justify-content: end;
+//             gap: 1rem;
+//         }
+//         @include respond(phone) {
+//             padding: 2rem 0;
+//         }
+//     }
+//     &-nombre {
+//         font-family: urbane, sans-serif;
+//         text-transform: uppercase;
+//         text-align: start;
+//         font-size: 2.3rem;
+//         font-weight: 400;
+//         margin: 1rem;
+//     }
+
+//     &-localidad {
+//         font-weight: 200;
+//         font-size: 1.8rem;
+//     }
+
+
+
+// }
+// .select {
+//     position: relative;
+//     display: flex;
+//     flex-direction: column-reverse;
+//     border: solid $bg-body 0.2rem;
+//     border-radius: .5rem;
+//     transition: all 0.5s;
+//     background-color: #fff;
+    
+    
+//     & select {
+//         font-size: 1.6rem;
+//         padding: .8rem;
+//         flex: 1;
+//         cursor: pointer;
+        
+//         &:disabled {
+//             background-color: $azul-bg;
+//             border: solid $bg-body .1rem;
+//         }
+//     }
+//     & label {
+//         padding-left: 0.5rem;
+//         color: #757575;
+//         font-size: 1.3rem;
+//     }
+//     &::after {
+//         content:'\00a0';
+//         width: 1rem;
+//         height: 100%;
+//         position: absolute;
+//         background: url('/imagenes/chevron-down-solid.svg');
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         background-position: center;
+//         right: 1rem;
+//         // bottom: 2rem;
+//         pointer-events: none;
+//         transition: all 0.5s;
+//     }
+//     &-row {
+//         display: flex;
+//         justify-content: stretch;
+//         flex-direction: row;
+//         gap: 1rem;
+//         margin-bottom: 1rem;
+//         @include respond(phone) {
+//             flex-direction: column;
+//         }
+//         & .select {
+//             flex-grow: 1;
+//             @include respond(phone) {
+//                 flex-grow: 1;
+//             }
+//         }
+//     }
+// }
+// .icon {
+//     height: 100%;
+//     &-home{
+//         position: relative;
+//         &::after {
+//             position: absolute;
+//             top: 0;
+//             left: -1.5rem;
+//             content:'\00a0';
+//             width: 1.4rem;
+//             height: 100%;
+//             background-image: url('/imagenes/icons/location-dot-solid.png');
+//             background-repeat: no-repeat;
+//             background-size:contain;
+//             background-position: center;
+//             fill: $azul-logo
+//         }
+//     }
+//     &-telefono{
+//         position: relative;
+//         &::after {
+//             position: absolute;
+//             top: 0;
+//             left: -1.5rem;
+//             content:'\00a0';
+//             width: 1.6rem;
+//             height: 100%;
+//             background-image: url('/imagenes/icons/phone-solid.png');
+//             background-repeat: no-repeat;
+//             background-size:contain;
+//             background-position: center;
+//             fill: $azul-logo
+//         }
+//     }
+//     &-whatsapp{
+//         position: relative;
+//         &::after {
+//             position: absolute;
+//             top: 0;
+//             left: -1.5rem;
+//             content:'\00a0';
+//             width: 1.6rem;
+//             height: 100%;
+//             background-image: url('/imagenes/icons/whatsapp.png');
+//             background-repeat: no-repeat;
+//             background-size:contain;
+//             background-position: center;
+//             fill: $azul-logo
+//         }
+//     }
+//     &-mail{
+//         position: relative;
+//         &::after {
+//             position: absolute;
+//             top: 0;
+//             left: -1.5rem;
+//             content:'\00a0';
+//             width: 1.6rem;
+//             height: 100%;
+//             background-image: url('/imagenes/icons/envelope-solid.png');
+//             background-repeat: no-repeat;
+//             background-size:contain;
+//             background-position: center;
+//             fill: $azul-logo
+//         }
+//     }
+// }

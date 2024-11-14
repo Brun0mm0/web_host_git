@@ -1,0 +1,29 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.cartilla{
+    &-titulo {
+        margin-bottom: 1rem;
+    }
+    &-descripcion {
+        margin-bottom: 2rem;
+    }
+    &-descargable{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    &-listas {
+        flex: 1;
+    }
+    &-item {
+        & i {
+            color: variables.$azul-logo;
+        }
+    }
+    &-link {
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+}

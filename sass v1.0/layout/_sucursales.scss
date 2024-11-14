@@ -1,6 +1,3 @@
-@use '../abstracts/variables';
-@use '../abstracts/mixins';
-
 .contactos {
     padding: 6rem;
     // margin-bottom: 4rem;
@@ -18,7 +15,7 @@
     }
 
     
-    @include mixins.respond(tab-port) {
+    @include respond(tab-port) {
         & p {
             text-align: center;
         }
@@ -40,11 +37,11 @@
             }
         }
 
-        @include mixins.respond(tab-land) {
+        @include respond(tab-land) {
         grid-template-columns: repeat(2, 1fr);
         }
         
-        @include mixins.respond(phone) {
+        @include respond(phone) {
         grid-template-columns: 1fr;
         }
     }
@@ -55,11 +52,11 @@
     justify-self: center;
     // grid-column: 3;
 
-    @include mixins.respond(tab-land) {
+    @include respond(tab-land) {
         grid-column: auto;
         // display: none;
     }
-    @include mixins.respond(tab-port) {
+    @include respond(tab-port) {
         display: none;
     }
 }

@@ -1,0 +1,131 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.modal__disc {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba($color: variables.$black, $alpha: 0.3);
+    backdrop-filter: blur(3px);
+    z-index: 5000;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: .5s;
+
+    @include mixins.respond(phone) {
+        padding: 0 3rem;
+    }
+    @include mixins.respond(phone-small) {
+        padding: 0 1rem;
+    }
+
+    &-cerrar {
+        display: flex;
+        justify-content: end;
+    }
+    &-button {
+        border: none;
+        background-color: transparent;
+        padding: 1rem;
+        cursor: pointer;
+        font-family: hoss-round-wide, sans-serif;
+        color: #909090;
+        font-weight: 700;
+        font-size: 3rem;
+
+        &:hover {
+            color: variables.$black;
+        }
+    }
+    &-window {
+        width: 55rem;
+        background-color: variables.$gris;
+        border: solid .8rem variables.$azul-logo;
+        border-radius: 2rem;
+        border-bottom: 2rem solid variables.$azul-logo;
+        padding: 1rem 2rem;
+        padding-bottom: 3rem;
+        animation-name: rotateIn;
+        animation-duration: .5s;
+
+        @include mixins.respond(phone) {
+            width: 100%;
+        }
+    }
+    &-titulo {
+        & h3 {
+            margin-bottom: 2.5rem;
+            text-align: start;
+        }
+    }
+    &-list {
+        padding-left: 3rem;
+        & li {
+            margin-bottom: 1rem;
+            transition: all .1s;
+
+            &:hover {
+                transform: translate(1px, -2px);
+            }
+            
+            & > a {
+                text-decoration: none;
+                &:visited {
+                    color: purple;
+                }
+            }
+        }
+    }
+    &-closeFadeOut {
+        animation-name: fadeOut;
+        animation-duration: .3s;
+    }
+    &-closeRotateOut {
+        animation-name: rotateOut;
+        animation-duration: .3s;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes rotateIn {
+    from {
+        transform: rotateX(-90deg);
+        // transform: translateY(-2rem);
+        opacity: 0;
+    } 
+    to {
+        transform: rotateX(0);
+        // transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+@keyframes rotateOut {
+    from {
+        transform: rotateX(0);
+        opacity: 1;
+    } 
+    to {
+        transform: rotateX(-45deg);
+        opacity: 0;
+    }
+}

@@ -1,11 +1,8 @@
-@use '../abstracts/variables';
-@use '../abstracts/mixins';
-
 .modal {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba($color: variables.$black, $alpha: 0.3);
+    background-color: rgba($color: $black, $alpha: 0.3);
     backdrop-filter: blur(3px);
     top: 0;
     left: 0;
@@ -15,7 +12,7 @@
     padding: 6rem;
     display: none;
 
-    @include mixins.respond(phone) {
+    @include respond(phone) {
     padding: 6rem 2rem;
     }
 
@@ -23,13 +20,13 @@
         width: 1rem;
     }
     &::-webkit-scrollbar-track {
-        background: variables.$bg-body;
+        background: $bg-body;
     }
     &::-webkit-scrollbar-thumb {
-        background: variables.$azul-logo-claro;
+        background: $azul-logo-claro;
         border-radius: 0.5rem;
         &:hover {
-            background: variables.$azul-logo;
+            background: $azul-logo;
         }
     }
 
@@ -56,9 +53,9 @@
     }
     &__contenido {
         border-radius: 3rem;
-        background-color: variables.$azul-bg;
-        border: solid 1rem variables.$azul-logo-claro;
-        border-bottom: solid 3rem variables.$azul-logo-claro;
+        background-color: $azul-bg;
+        border: solid 1rem $azul-logo-claro;
+        border-bottom: solid 3rem $azul-logo-claro;
         padding: 4rem;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         // overflow-y: auto;
@@ -82,7 +79,7 @@
             list-style: outside;
             & li::marker{
                 font-size: 1.5rem;
-                color: variables.$azul-logo;
+                color: $azul-logo;
             }
         }
         &-emergencias {
@@ -114,7 +111,7 @@
         font-size: 3rem;
 
         &:hover {
-            color: variables.$black;
+            color: $black;
         }
     }
 
@@ -132,7 +129,7 @@
         transform-style: preserve-3d;
         transition: all 0.5s;
 
-        @include mixins.respond(phone) {
+        @include respond(phone) {
             top: 12.5rem;
         }
         
@@ -143,7 +140,7 @@
             height: 100%;
             font-size: 2rem;
             font-weight: 700;
-            color: variables.$azul-bg;
+            color: $azul-bg;
             background-color: transparent;
             border: none;
             cursor: pointer;
