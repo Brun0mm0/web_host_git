@@ -94,7 +94,7 @@
         <div class="cards__card">
             <img src="./imagenes/icono_discapacidad.png" alt="">
             <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">manual instructivo de discapacidad</h3>
+                <h3 class="cards__card__body-titulo">manual instructivo de prestaciones para personas con discapacidad</h3>
                 <p>Instructivo para beneficiarios 2025</p>
                 <a href="./imagenes/instructivo-discapacidad-2025.pdf" class="cards__card__body-item" target="_blank"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
                 <a href="./imagenes/instructivo-facturacion.pdf" class="cards__card__body-item" target="_blank"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>

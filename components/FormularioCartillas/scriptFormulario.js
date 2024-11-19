@@ -14,22 +14,26 @@ function downloadXlsx(e) {
     const plan = formData.get("plan");
     const provincia = formData.get("provincia");
 
-    const fileUrl = `../../imagenes/cartillas/Cartilla-${provincia}.xlsx`
-    const link = document.createElement("a");
-
-    link.href = fileUrl
-    link.download = `${provincia}`
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-
-    e.target.reset()
+    if( plan && provincia) {   
+        const fileUrl = `../../imagenes/cartillas/Cartilla-${provincia}.xlsx`
+        const link = document.createElement("a");
+        
+        link.href = fileUrl
+        link.download = `${provincia}`
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        e.target.reset()
+    } else {
+        alert('Debe seleccionar ambas opciones')
+        e.target.reset()
+    }
 }
 
 // Función para cargar el formulario en la página
 function loadFormulario() {
-    fetch('../components/FormularioCartillas/formularioCartillas.html')
+    fetch('../components/FormularioCartillas/formularioCartillas.html?v1.0')
         .then(response => response.text())
         .then(html => {
             const container = document.getElementById("formulario-container")

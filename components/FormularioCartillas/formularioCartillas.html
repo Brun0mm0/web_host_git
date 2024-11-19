@@ -1,19 +1,41 @@
-<form id="formCartilla">
-    <label for="plan">Plan:</label>
-    <select name="plan">
-        <option value="">Seleccionar plan</option>
-        <option value="Plan A">Plan A</option>
-        <option value="Plan B">Plan B</option>
-        <option value="Plan C">Plan C</option>
+<form id="formCartilla" class="formularioCartillas">
+    <label class="formularioCartillas__label" for="plan">Plan:</label>
+    <select name="plan" class="formularioCartillas__select">
+        <option value="">Seleccionar un plan</option>
+        <option value="s100">Plan S100</option>
+        <option value="s200">Plan S200</option>
     </select>
 
-    <label for="provincia">Provincia:</label>
-    <select name="provincia">
-        <option value="">Seleccionar provincia</option>
-        <option value="CABA">Buenos Aires</option>
-        <option value="Catamarca">Córdoba</option>
-        <option value="Chaco">Mendoza</option>
+    <label class="formularioCartillas__label" for="provincia">Zona:</label>
+    <select name="provincia" class="formularioCartillas__select">
+        <option value="">Seleccionar una zona</option>
+        <option value="CABA">CABA</option>
+        <option value="BuenosAiresInterior">Buenos Aires</option>
+        <option value="Catamarca">Catamárca</option>
+        <option value="Chaco">Chaco</option>
+        <option value="Chubut">Chubut</option>
+        <option value="Cordoba">Córdoba</option>
+        <option value="Corrientes">Corrientes</option>
+        <option value="EntreRios">Entre Ríos</option>
+        <option value="Formosa">Formosa</option>
+        <option value="GBANorte">GBA Norte</option>
+        <option value="GBAOeste">GBA Oeste</option>
+        <option value="GBASur">GBA Sur</option>
+        <option value="Jujuy">Jujuy</option>
+        <option value="LaPampa">La Pampa</option>
+        <option value="LaRioja">La Rioja</option>
+        <option value="Mendoza">Mendoza</option>
+        <option value="Misiones">Misiones</option>
+        <option value="Neuquen">Neuquen</option>
+        <option value="RioNegro">Rio Negro</option>
+        <option value="Salta">Salta</option>
+        <option value="SanJuan">San Juan</option>
+        <option value="SanLuis">San Luis</option>
+        <option value="SantaCruz">Santa Cruz</option>
+        <option value="Santiago">Santiago Del Estero</option>
+        <option value="TierraDelFuego">Tierra Del Fuego</option>
+        <option value="Tucuman">Tucumán</option>
     </select>
 
-    <button type="submit">Descargar Archivo</button>
+    <button class="formularioCartillas__boton" type="submit">Descargar</button>
 </form>

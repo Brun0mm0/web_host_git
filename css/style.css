@@ -18,12 +18,12 @@ html {
     font-size: 56.25%;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   html {
     font-size: 50%;
   }
@@ -68,7 +68,7 @@ hr {
     padding-top: 20rem;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .container {
     width: 100%;
   }
@@ -143,14 +143,14 @@ hr {
 }
 
 nav ul {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
 }
 nav ul a {
   color: #000000;
 }
 nav ul ul a {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #009ADA;
 }
 
@@ -493,7 +493,7 @@ footer span, i {
 footer {
   padding: 3rem 6rem;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   footer {
     padding: 3rem;
   }
@@ -523,12 +523,12 @@ footer .footer {
     gap: auto;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   footer .footer {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   footer .footer {
     padding: 6rem;
     grid-template-columns: 1fr;
@@ -569,7 +569,7 @@ footer .footer #links .links-contenedor {
   justify-content: space-around;
   align-items: center;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   footer .footer #links .links-contenedor {
     padding: 3rem 0;
     flex-direction: column;
@@ -589,7 +589,7 @@ footer .footer #links .links-contenedor img {
     margin: auto;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   footer .footer #links {
     grid-column: auto;
   }
@@ -635,7 +635,7 @@ footer #logo {
   width: 20rem;
   overflow: hidden;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .slider {
     width: 100%;
   }
@@ -674,6 +674,48 @@ footer #logo {
 }
 .slide a:hover {
   color: #FFFFFF;
+}
+
+.formularioCartillas {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 20em) {
+  .formularioCartillas {
+    width: calc(100vw - 3rem);
+  }
+}
+.formularioCartillas__label {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.formularioCartillas__select {
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  border: #AADAED 1px;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+}
+.formularioCartillas__boton {
+  align-self: end;
+  background-color: #009ADA;
+  width: 12rem;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.formularioCartillas__boton:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: #009ADA;
+  letter-spacing: 1px;
 }
 
 .header {
@@ -737,8 +779,9 @@ footer #logo {
     padding: 3rem 5rem;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .header {
+    padding: 3rem;
     justify-content: center;
   }
 }
@@ -756,13 +799,14 @@ footer #logo {
 nav > ul {
   list-style: none;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   nav > ul {
     display: none;
   }
 }
 nav > ul > li {
   position: relative;
+  width: auto;
   float: left;
 }
 nav > ul > li:not(:last-child):before {
@@ -772,7 +816,7 @@ nav > ul > li:not(:last-child):before {
   color: #009ADA;
   font-size: 2rem;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   nav > ul > li {
     float: none;
   }
@@ -780,7 +824,7 @@ nav > ul > li:not(:last-child):before {
 nav > ul > li a, nav > ul > li a:visited {
   display: block;
   text-decoration: none;
-  padding: 0 3rem;
+  padding: 0 2rem;
   line-height: 7rem;
 }
 nav > ul > li a:not(:only-child):after, nav > ul > li a:visited:not(:only-child):after {
@@ -789,22 +833,23 @@ nav > ul > li a:not(:only-child):after, nav > ul > li a:visited:not(:only-child)
 }
 @media only screen and (max-width: 81em) {
   nav > ul > li a, nav > ul > li a:visited {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 }
 nav > ul ul li {
-  min-width: 19rem;
+  width: 19rem; /* Fija o ajusta el ancho del contenedor */
+  overflow: visible; /* Permite que el contenido fluya */
+  white-space: normal; /* Permite saltos de línea */
+  word-wrap: break-word; /* Divide palabras largas si es necesario */
+  overflow-wrap: break-word; /* Compatibilidad con navegadores */
 }
 nav > ul ul li a {
-  padding: 1.5rem;
-  line-height: 2rem;
+  padding: 1.2rem;
+  width: 100%;
+  line-height: 1.8rem;
+  display: block;
 }
-nav > ul ul li a:before {
-  padding-right: 0.4rem;
-  content: " ";
-  color: #009ADA;
-}
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   nav {
     position: absolute;
     width: 100%;
@@ -818,7 +863,7 @@ nav > ul ul li a:before {
 }
 
 .nav-container {
-  padding: 3rem 6rem;
+  padding: 3rem 4rem;
   width: 100%;
   margin-inline: auto;
   display: flex;
@@ -849,22 +894,31 @@ nav > ul ul li a:before {
   position: absolute;
   z-index: 1;
   top: 6rem;
-  width: 100%;
   padding: 0;
   margin: 0;
   background-color: #AADAED;
   transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .nav-dropdown li {
-  margin: 0 0 1rem 0;
+  width: 12rem; /* Fija o ajusta el ancho del contenedor */
+  overflow: visible; /* Permite que el contenido fluya */
+  white-space: normal; /* Permite saltos de línea */
+  word-wrap: break-word; /* Divide palabras largas si es necesario */
+  overflow-wrap: break-word; /* Compatibilidad con navegadores */
 }
-@media only screen and (max-width: 62em) {
+.nav-dropdown li a {
+  padding: 1.2rem;
+  width: 100%;
+  line-height: 1.8rem;
+  display: block;
+}
+@media only screen and (max-width: 68em) {
   .nav-dropdown {
     position: static;
   }
 }
 
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav_list {
     display: block !important;
   }
@@ -907,7 +961,7 @@ nav > ul ul li a:before {
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   #nav-toggle {
     display: block;
   }
@@ -915,6 +969,7 @@ nav > ul ul li a:before {
 
 .contacto_button {
   text-align: center;
+  z-index: 100;
 }
 .contacto_button > a {
   text-transform: uppercase;
@@ -924,7 +979,7 @@ nav > ul ul li a:before {
   color: #f5f5f5;
   transition: all 0.3s;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .contacto_button {
     width: 16rem;
   }
@@ -1084,11 +1139,28 @@ nav > ul ul li a:before {
 }
 .cartilla-descargable {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 10rem);
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
 }
+@media only screen and (max-width: 37.5em) {
+  .cartilla-descargable {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .cartilla-titulo {
   margin-bottom: 1rem;
+  width: 50rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .cartilla-titulo {
+    width: calc(100% - 2rem);
+  }
 }
 .cartilla-descripcion {
   margin-bottom: 2rem;
@@ -1168,7 +1240,7 @@ nav > ul ul li a:before {
   padding: 0;
   padding-top: calc(100vh - (100vh - 19rem));
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .hero {
     padding-top: calc(100vh - (100vh - 14rem));
   }
@@ -1195,7 +1267,7 @@ nav > ul ul li a:before {
   max-width: 120rem;
   margin-inline: auto;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .swiper-slide-item {
     padding: 0 6rem;
   }
@@ -1285,7 +1357,7 @@ nav > ul ul li a:before {
 .nav__btn__azul {
   background-color: #009ADA;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav__btn__azul {
     border-radius: 0 0 0 3rem;
   }
@@ -1299,7 +1371,7 @@ nav > ul ul li a:before {
   background-color: rgb(84, 184, 227);
   border-radius: 0 3rem 3rem 0;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav__btn__celeste {
     border-radius: 0 0 3rem 0;
   }
@@ -1313,7 +1385,7 @@ nav > ul ul li a:before {
   background-color: #02B57E;
   border-radius: 3rem 0 0 3rem;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav__btn__verde {
     border-radius: 3rem 0 0 0;
   }
@@ -1326,7 +1398,7 @@ nav > ul ul li a:before {
 .nav__btn__azul-oscuro {
   background-color: #0089C2;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav__btn__azul-oscuro {
     border-radius: 0 3rem 0 0;
   }
@@ -1336,7 +1408,7 @@ nav > ul ul li a:before {
     border-radius: 0;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .nav {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1460,6 +1532,7 @@ nav > ul ul li a:before {
 @media only screen and (max-width: 37.5em) {
   .modal__emergencias {
     top: 12.5rem;
+    padding: 1.5rem;
   }
 }
 .modal__emergencias-boton {
@@ -1489,7 +1562,7 @@ nav > ul ul li a:before {
   padding: 6rem;
   gap: 6rem;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -1512,7 +1585,7 @@ nav > ul ul li a:before {
   padding: 5rem;
   padding-top: 3;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .cards__card {
     grid-template-rows: auto;
     grid-template-columns: 1fr 2fr;
@@ -1533,7 +1606,7 @@ nav > ul ul li a:before {
   grid-column: 1/4;
   grid-template-columns: repeat(2, 1fr);
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .cards__card-big {
     grid-column: auto;
     grid-template-columns: auto;
@@ -1561,7 +1634,7 @@ nav > ul ul li a:before {
   max-width: 100%;
   margin: auto;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .cards__card > img {
     align-self: center;
   }
@@ -1602,7 +1675,7 @@ nav > ul ul li a:before {
   font-size: 2rem;
   margin-right: 1rem;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .contactos {
     grid-template-columns: 1fr;
   }
@@ -1643,7 +1716,7 @@ nav > ul ul li a:before {
     grid-column: auto;
   }
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 68em) {
   .item-map {
     display: none;
   }

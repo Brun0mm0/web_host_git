@@ -134,6 +134,9 @@
 
         @include mixins.respond(phone) {
             top: 12.5rem;
+            padding: 1.5rem;
+            // padding-right: 1rem;
+            
         }
         
         

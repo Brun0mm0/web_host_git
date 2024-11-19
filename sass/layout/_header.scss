@@ -58,6 +58,7 @@
         padding: 3rem 5rem;
     }
     @include mixins.respond(tab-port) {
+        padding: 3rem;
         justify-content: center;
     }
     @include mixins.respond(phone) {
@@ -70,80 +71,87 @@
 
 nav {
     
-   > ul {
+    > ul {
         list-style: none;
-
+    
         @include mixins.respond(tab-port) {
-            display: none;
-
+          display: none;
         }
-
+    
         > li {
-            position: relative;
-            float: left;
-
-            &:not(:last-child):before {
-                position: absolute;
-                top: 2rem;
-                content: '• ';
-                color: variables.$azul-logo;
-                font-size: 2rem;
+          position: relative;
+          width: auto;
+          float: left;
+    
+          &:not(:last-child):before {
+            position: absolute;
+            top: 2rem;
+            content: '• ';
+            color: variables.$azul-logo;
+            font-size: 2rem;
+          }
+    
+          @include mixins.respond(tab-port) {
+            float: none;
+          }
+    
+          a, a:visited {
+            display: block;
+            text-decoration: none;
+            padding: 0 2rem;
+            line-height: 7rem;
+    
+            &:not(:only-child):after {
+              padding-left: 0.4rem;
+              content: ' ▾';
             }
-            
-            @include mixins.respond(tab-port) {
-                float: none;
+    
+            @include mixins.respond(tab-land) {
+              padding: 0 1rem;
+            //   padding-right: 0.75rem;
             }
-            a, a:visited {
-                display: block;
-                text-decoration: none;
-                padding: 0 3rem;
-                line-height: 7rem;
-                &:not(:only-child):after {
-                    padding-left: 0.4rem;
-                    content: ' ▾';
-                }
-
-                @include mixins.respond(tab-land) {
-                padding: 0 1.5rem;
-                }
-            }
-
+          }
         }
-
+    
         ul {
+            li{
+            width: 19rem; /* Fija o ajusta el ancho del contenedor */
+            overflow: visible; /* Permite que el contenido fluya */
+            white-space: normal; /* Permite saltos de línea */
+            word-wrap: break-word; /* Divide palabras largas si es necesario */
+            overflow-wrap: break-word; /* Compatibilidad con navegadores */
 
-            
-            li {
-                min-width: 19rem;
-                
-                a {
-                    padding: 1.5rem;
-                    line-height: 2rem;
-                    &:before {
-                        padding-right: 0.4rem;
-                        content: ' ';
-                        color: variables.$azul-logo;
-                    }
-                }
+            a {
+            padding: 1.2rem;
+            width: 100%;
+            line-height: 1.8rem;
+            display: block;
+    
+            //   &:before {
+            //     content: ' ';
+            //     padding-right: 0.1rem;
+            //     color: variables.$azul-logo;
+            //   }
             }
-        } 
-        
-    }
-    @include mixins.respond(tab-port) {
+          }
+        }
+      }
+    
+      @include mixins.respond(tab-port) {
         position: absolute;
         width: 100%;
         top: 15rem;
-    }
-
-    @include mixins.respond(phone) {
+      }
+    
+      @include mixins.respond(phone) {
         top: 12rem;
-    }
+      }
 
 
 }
 
 .nav-container {
-    padding: 3rem 6rem;
+    padding: 3rem 4rem;
     width: 100%;
     margin-inline: auto;
     display: flex;
@@ -172,15 +180,26 @@ nav {
     position: absolute;
     z-index: 1;
     top: 6rem;
-    width: 100%;
+    // width: 12rem;
     padding: 0;
     margin: 0;
     background-color: variables.$bg-body;
     // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
-    & li {
-        margin:0 0 1rem 0;
+    & li{
+            width: 12rem; /* Fija o ajusta el ancho del contenedor */
+            overflow: visible; /* Permite que el contenido fluya */
+            white-space: normal; /* Permite saltos de línea */
+            word-wrap: break-word; /* Divide palabras largas si es necesario */
+            overflow-wrap: break-word; /* Compatibilidad con navegadores */
+
+            a {
+            padding: 1.2rem;
+            width: 100%;
+            line-height: 1.8rem;
+            display: block;
+            }
     }
 
     @include mixins.respond(tab-port) {
@@ -244,6 +263,7 @@ nav {
   .contacto_button {
   
       text-align: center;
+      z-index: 100;
       
       & > a {
           text-transform: uppercase;

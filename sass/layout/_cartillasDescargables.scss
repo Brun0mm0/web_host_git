@@ -4,12 +4,28 @@
 .cartilla{
     &-descargable{
         display: flex;
-        // flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        height: calc(100vh - 10rem);
+        flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
+        
+        @include mixins.respond(phone) {
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        @include mixins.respond(phone-small) {
+            // justify-content: center;
+        }
     }
     &-titulo {
         margin-bottom: 1rem;
+        width: 50rem;
+        @include mixins.respond(phone) {
+            width: calc( 100% - 2rem );
+        }
     }
     &-descripcion {
         margin-bottom: 2rem;
