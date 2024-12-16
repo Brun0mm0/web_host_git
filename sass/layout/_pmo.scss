@@ -1,8 +1,10 @@
-    
-    .pmo-listas {
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+  
+.pmo-listas {
     padding:0 6rem;
     list-style: outside;
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 0 1.5rem;
     }
 }
@@ -10,7 +12,7 @@
 
 .pmo-listas > li::marker {
     font-size: 1.5rem;
-    color: $azul-logo;
+    color: variables.$azul-logo;
 }
 
 .pmo-listas > li > p {
@@ -45,7 +47,7 @@
     
     & li::marker {
         font-size: 1.5rem;
-        color: $verde-logo;
+        color: variables.$verde-logo;
     }   
     
     & p {
@@ -53,7 +55,7 @@
     }
 
     
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 0 1.5rem 0 2rem;
         
     }
@@ -63,7 +65,7 @@
     & li::marker {
         font-size: 1.5rem;
         font-weight: 700;
-        color: $azul-logo;
+        color: variables.$azul-logo;
     }   
 }
 .tildes {
@@ -78,7 +80,7 @@
     vertical-align: middle;
     & li::marker {
         font-size: 1.5rem;
-        color: $azul-logo;
+        color: variables.$azul-logo;
     }
     & p {
         margin-left: 0;
@@ -93,7 +95,7 @@
 .pmo-item {
     list-style: initial !important;
     
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         grid-template-columns: 1fr;
         padding: 0 1.5rem;
     }
@@ -109,7 +111,7 @@
             margin-bottom: 1rem;
             &::marker {
                 font-size: 1.5rem;
-                 color: $azul-logo;
+                 color: variables.$azul-logo;
                 }
             }
     } 

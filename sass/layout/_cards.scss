@@ -1,3 +1,6 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 .cards {
     display: grid;
     margin: auto;
@@ -5,11 +8,11 @@
     padding: 6rem;
     gap: 6rem;
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         grid-template-columns: 1fr;
     }
 
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 3rem;
         gap: 3rem;
     }
@@ -20,18 +23,20 @@
         align-items: start;
         gap: 3rem;
         width: 100%;
-        background-color: $bg-body;
+        // background-color: ;
+        border: 0.5rem solid variables.$azul-logo-claro;
+        border-bottom: 3rem solid variables.$azul-logo-claro;
         border-radius: 3rem;
         padding: 5rem;
         padding-top: 3; 
         // grid-template-rows: 35rem auto;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             grid-template-rows: auto;
             grid-template-columns:  1fr 2fr;
         }
 
-        @include respond(phone)  {
+        @include mixins.respond(phone)  {
             grid-template-columns: auto;
             justify-content: center;
             padding: 6rem 3rem;
@@ -46,7 +51,7 @@
             // grid-row: 3;
             grid-template-columns:  repeat(2, 1fr);
 
-            @include respond(tab-port)  {
+            @include mixins.respond(tab-port)  {
                 grid-column: auto;
                 grid-template-columns: auto;
                 // justify-content: center;
@@ -59,7 +64,7 @@
                 & a {
                     text-decoration: none;
                     font-family: "roboto-condensed", sans-serif;
-                    color: $black;
+                    color: variables.$black;
                     font-size: 2rem;
                     font-weight: 500;
                     vertical-align: middle;
@@ -78,11 +83,11 @@
             max-width: 100%;
             margin: auto;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
             align-self: center;
             }
 
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 display: none;
                 // position: absolute;
                 // left: 0;
@@ -91,7 +96,7 @@
                 // max-width: 30rem;
                 // opacity: 0.2;
             }
-            @include respond(phone-small) {
+            @include mixins.respond(phone-small) {
                 position: absolute;
                 max-width: 25rem;
                 opacity: 0.2;

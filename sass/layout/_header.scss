@@ -1,3 +1,6 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 .header {
     position: fixed;
     left: 0%;
@@ -5,7 +8,7 @@
     right: 0%;
     bottom: auto;
     margin-inline: auto;
-    padding: 3rem;
+    padding: 3rem 5rem;
     display: flex;
     justify-content: center;
     transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -19,14 +22,14 @@
         display: flex;
         align-items: center;
         
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             width: 26rem;
         }
-        @include respond(phone) {
+        @include mixins.respond(phone) {
             padding: 2rem 1rem;
             width: 24rem;
         }
-        @include respond(phone-small) {
+        @include mixins.respond(phone-small) {
             width: 20rem;
         }
         
@@ -44,120 +47,130 @@
         img {
             max-width: 100%;
             margin: auto;
-            @include respond(phone-small) {
+            @include mixins.respond(phone-small) {
                 padding: 0;
                 padding-left: 1rem;
             }
         }
     }
 
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 3rem 5rem;
     }
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
+        padding: 3rem;
         justify-content: center;
     }
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 1.5rem;
     }
-    @include respond(phone-small) {
+    @include mixins.respond(phone-small) {
         padding: 1.5rem;
     }
 }
 
 nav {
     
-   > ul {
+    > ul {
         list-style: none;
-
-        @include respond(tab-port) {
-            display: none;
-
+    
+        @include mixins.respond(tab-port) {
+          display: none;
         }
-
+    
         > li {
-            position: relative;
-            float: left;
-
-            &:not(:last-child):before {
-                position: absolute;
-                top: 2rem;
-                content: '• ';
-                color: $azul-logo;
-                font-size: 2rem;
+          position: relative;
+          width: auto;
+          float: left;
+    
+          &:not(:last-child):before {
+            position: absolute;
+            top: 2rem;
+            content: '• ';
+            color: variables.$azul-logo;
+            font-size: 2rem;
+          }
+    
+          @include mixins.respond(tab-port) {
+            float: none;
+          }
+    
+          a, a:visited {
+            display: block;
+            text-decoration: none;
+            padding: 0 2rem;
+            line-height: 7rem;
+    
+            &:not(:only-child):after {
+              padding-left: 0.4rem;
+              content: ' ▾';
             }
-            
-            @include respond(tab-port) {
-                float: none;
+    
+            @include mixins.respond(tab-land) {
+              padding: 0 1rem;
+            //   padding-right: 0.75rem;
             }
-            a, a:visited {
-                display: block;
-                text-decoration: none;
-                padding: 0 3rem;
-                line-height: 7rem;
-                &:not(:only-child):after {
-                    padding-left: 0.4rem;
-                    content: ' ▾';
-                }
-
-                @include respond(tab-land) {
-                padding: 0 1.5rem;
-                }
-            }
-
+          }
         }
-
+    
         ul {
+            li{
+            width: 19rem; /* Fija o ajusta el ancho del contenedor */
+            overflow: visible; /* Permite que el contenido fluya */
+            white-space: normal; /* Permite saltos de línea */
+            word-wrap: break-word; /* Divide palabras largas si es necesario */
+            overflow-wrap: break-word; /* Compatibilidad con navegadores */
 
-            
-            li {
-                min-width: 19rem;
-                
-                a {
-                    padding: 1.5rem;
-                    line-height: 2rem;
-                    &:before {
-                        padding-right: 0.4rem;
-                        content: ' ';
-                        color: $azul-logo;
-                    }
-                }
+            a {
+            padding: 1.2rem;
+            width: 100%;
+            line-height: 1.8rem;
+            display: block;
+    
+            //   &:before {
+            //     content: ' ';
+            //     padding-right: 0.1rem;
+            //     color: variables.$azul-logo;
+            //   }
             }
-        } 
-        
-    }
-    @include respond(tab-port) {
+          }
+        }
+      }
+    
+      @include mixins.respond(tab-port) {
         position: absolute;
         width: 100%;
         top: 15rem;
-    }
-
-    @include respond(phone) {
+      }
+    
+      @include mixins.respond(phone) {
         top: 12rem;
-    }
+      }
 
 
 }
 
 .nav-container {
-    padding: 3rem 6rem;
+    padding: 3rem 4rem;
     width: 100%;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $bg-body;
+    background-color: variables.$bg-body;
+        // border: solid 0.5rem $azul-logo-claro;
+    // border-inline: 2rem solid $azul-logo-claro;
     border-radius: 2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 3re;
     }
 
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 0 2rem;
     }
-    @include respond(phone-small) {
+    @include mixins.respond(phone-small) {
         padding: 0;
     }
 }
@@ -167,25 +180,36 @@ nav {
     position: absolute;
     z-index: 1;
     top: 6rem;
-    width: 100%;
+    // width: 12rem;
     padding: 0;
     margin: 0;
-    background-color: $bg-body;
+    background-color: variables.$bg-body;
     // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
-    & li {
-        margin:0 0 1rem 0;
+    & li{
+            width: 12rem; /* Fija o ajusta el ancho del contenedor */
+            overflow: visible; /* Permite que el contenido fluya */
+            white-space: normal; /* Permite saltos de línea */
+            word-wrap: break-word; /* Divide palabras largas si es necesario */
+            overflow-wrap: break-word; /* Compatibilidad con navegadores */
+
+            a {
+            padding: 1.2rem;
+            width: 100%;
+            line-height: 1.8rem;
+            display: block;
+            }
     }
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         position: static;
     }
 
 }
 
 .nav_list {
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         display: block !important;
     }
 }
@@ -202,7 +226,7 @@ nav {
         border-radius: 2px;
         height: 5px;
         width: 32px;
-        background: $azul-logo;
+        background: variables.$azul-logo;
         cursor: pointer;
         position: absolute;
         display: block;
@@ -229,7 +253,7 @@ nav {
       }
     }
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         display: block;
     }
 
@@ -239,26 +263,27 @@ nav {
   .contacto_button {
   
       text-align: center;
+      z-index: 100;
       
       & > a {
           text-transform: uppercase;
-          background-color: $azul-logo;
+          background-color: variables.$azul-logo;
           border-radius: 2rem;
-          border: 0.2rem $azul-logo;
-          color: $bg-body;
+          border: 0.2rem variables.$azul-logo;
+          color: variables.$azul-bg;
           transition: all 0.3s;
         } 
         
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             width: 16rem;
     }
 }
     
     .contacto_button :hover {
-    background-color: $bg-body;
+    background-color: variables.$bg-body;
     border-radius: 3rem;
-    border: 0.2rem $azul-logo;
-    color: $azul-logo;
+    border: 0.2rem variables.$azul-logo;
+    color: variables.$azul-logo;
   }
 
   .nav-background {
@@ -268,16 +293,16 @@ nav {
     position: fixed;
     top: 6rem;
     right: 10rem;
-    background-color: $bg-body;
+    background-color: variables.$bg-body;
     // z-index: 1;
     transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
 
-    // @include respond(tab-port) {
+    // @include mixins.respond(tab-port) {
     //     top: 4.5rem;
     //     right: 4.5rem;
     // }
 
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         top: 3.5rem;
         right: 3.5rem;
     }

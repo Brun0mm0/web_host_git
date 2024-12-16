@@ -1,17 +1,20 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 .hero {
     height: calc(100vh - 8rem);
     // height: 100vh;
     padding: 0;
     padding-top: calc(100vh - calc(100vh - 19rem));
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding-top: calc(100vh - calc(100vh - 14rem));
     }
     
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding-top: calc(100vh - calc(100vh - 12rem));
     }
     
-    @include respond(phone-small) {
+    @include mixins.respond(phone-small) {
         padding-top: calc(100vh - calc(100vh - 11rem));
         height: calc(100vh - 40rem);
     }
@@ -29,14 +32,14 @@
             max-width: 120rem;
             margin-inline: auto;
             
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 padding: 0 6rem;
             }
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 padding: 0 3rem;
                 grid-template-columns: repeat(1, 1fr);
             }
-            @include respond(phone-small) {
+            @include mixins.respond(phone-small) {
                 padding: 0 2rem;
             }
 
@@ -50,9 +53,9 @@
 
             & h2 {
                 text-align: start;
-                color: $azul-logo;
+                color: variables.$azul-logo;
                 
-                @include respond(phone) {
+                @include mixins.respond(phone) {
                 }
             }
             & a {
@@ -61,11 +64,11 @@
                 text-decoration: none;
             }
             
-            @include respond(tab-land) {
+            @include mixins.respond(tab-land) {
                 padding: 4rem;
             }
             
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 // padding: 0;
                 justify-content: space-around;
                 padding: 3rem 0 8rem 0;
@@ -93,7 +96,7 @@
                 object-fit: contain;
                 margin: auto;
             }
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 display: none;
                 // grid-column: 1/3;
                 // grid-row: 1;

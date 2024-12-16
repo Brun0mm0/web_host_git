@@ -1,0 +1,46 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.cartilla{
+    &-descargable{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: calc(100vh - 10rem);
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        
+        @include mixins.respond(phone) {
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        @include mixins.respond(phone-small) {
+            // justify-content: center;
+        }
+    }
+    &-titulo {
+        margin-bottom: 1rem;
+        width: 50rem;
+        @include mixins.respond(phone) {
+            width: calc( 100% - 2rem );
+        }
+    }
+    &-descripcion {
+        margin-bottom: 2rem;
+        min-width: 8rem;
+    }
+    &-listas {
+        flex: 1;
+    }
+    &-item {
+        & i {
+            color: variables.$azul-logo;
+        }
+    }
+    &-link {
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+}

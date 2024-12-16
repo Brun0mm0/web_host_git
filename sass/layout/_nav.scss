@@ -1,4 +1,5 @@
-
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .nav {
     margin-inline: auto;
@@ -7,7 +8,7 @@
     gap: 0;
     padding: 3rem 6rem;
     
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         padding: 0;
     }
     
@@ -29,58 +30,58 @@
         }
 
         &__azul {
-            background-color: $azul-logo;
+            background-color: variables.$azul-logo;
             
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 border-radius:  0 0 0 3rem;
             }
 
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 border-radius:  0;
             }
         }
         &__celeste {
-            background-color: $azul-logo-claro;
+            background-color: variables.$azul-logo-claro;
             border-radius:  0 3rem 3rem 0 ;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 border-radius:  0 0 3rem 0 ;
             }
 
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 border-radius:  0;
             }
 
         }
         &__verde {
-            background-color: $verde-logo;
+            background-color: variables.$verde-logo;
             border-radius: 3rem 0 0 3rem;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 border-radius: 3rem 0 0 0;
             }
 
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 border-radius:  0;
             }
         }
         &__azul-oscuro {
-            background-color: $azul-logo-oscuro;
+            background-color: variables.$azul-logo-oscuro;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
             border-radius: 0 3rem 0 0;
             }
 
-            @include respond(phone) {
+            @include mixins.respond(phone) {
                 border-radius:  0;
             }
         }
     }
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         grid-template-columns: repeat(2, 1fr);
     }
-    @include respond(phone) {
+    @include mixins.respond(phone) {
         grid-template-columns: repeat(1, 1fr);
     }
 }

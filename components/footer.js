@@ -1,20 +1,15 @@
+const slide = document.querySelectorAll('.slide');
+const btn = document.querySelector('.slide-btn');
 
-class Footer extends HTMLElement {
-    constructor() {
-        super();
-        
-        let shadow = this.attachShadow({mode:'open'});
+let cursSlide = 0
 
-        this.divHeader = document.createElement("footer");
-        // this.divHeader.className = 'container';
-        this.divHeader.innerHTML = `
-        <div class="footer">
-        <h2>footer</h2>
-        </div>
-        `;
+slide.forEach((s,i) => s.style.transform = `translateY(${10 * i}rem)`);
+btn.addEventListener('click', ()=>{
 
-        shadow.appendChild(this.divHeader)
-    }
-}
+    cursSlide++;
 
-customElements.define("app-footer", Footer);
+    slide.forEach((s,i) => (s.style.transform = `translateY(${10 *  (i - cursSlide)}rem)`));
+    setTimeout(function(){
+        slide.forEach((s,i) => (s.style.transform = `translateY(${10 *  (i)}rem)`)), cursSlide = 0}, 4000);
+
+});

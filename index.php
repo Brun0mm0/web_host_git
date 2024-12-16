@@ -59,7 +59,7 @@
             <div class="nav__btn nav__btn__verde"><a href="/pages/quiero-afiliarme.php"><p>Quiero Afiliarme</p></a></div>
             <div class="nav__btn nav__btn__azul-oscuro"><a href="/pages/planes.php"><p>Planes</p></a></div>
             <div class="nav__btn nav__btn__azul"><a href="http://credencialweb.osssb.com.ar"><p>Portal Web</p></a></div>
-            <div class="nav__btn nav__btn__celeste"><a href="/pages/afiliado-adherente.php"><p>Afiliado Adherente</p></a></div>
+            <div class="nav__btn nav__btn__celeste"><a href="/pages/coseguros.php"><p>Coseguros</p></a></div>
     </section>
     <!-- ##### -->
     <!-- cards -->
@@ -69,11 +69,10 @@
         <div class="cards__card">
             <img src="./imagenes/ImagenVacuna.png" alt="">
             <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">campaña vacunación antigripal 2023</h3>
-                <p>Ingresa al link que corresponda para descargar el instructivo y ver las sedes donde vacunarte</p>
+                <h3 class="cards__card__body-titulo">campaña vacunación antigripal 2024</h3>
+                <p>Ingresa al link para descargar el instructivo y ver las sedes donde vacunarte</p>
                 <br>
-                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>CABA - GBA</p></a>
-                <a href="/pages/pagina-en-construccion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>INTERIOR</p></a>
+                <a href="/pages/vacunacion.php" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Saber mas ...</p></a>
             </div>
         </div>
         <div class="cards__card">
@@ -93,56 +92,47 @@
             </div>
         </div>
         <div class="cards__card">
-            <img src="./imagenes/poba.png" alt="">
-            <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">POBA</h3>
-                <p>Ingresa a la web de la policlínica bancaria</p>
-                <br>
-                <a href="https://www.policlinicabancaria.com.ar/" class="cards__card__body-item"><i class="fa-solid fa-caret-right fa-2xl"></i></i><p>Ingresar</p></a>
-            </div>
-        </div>
-        <div class="cards__card cards__card-big">
             <img src="./imagenes/icono_discapacidad.png" alt="">
             <div class="cards__card__body">
-                <h3 class="cards__card__body-titulo">manual instructivo de discapacidad</h3>
-                <p>Instructivo para beneficiarios 2023</p>
-                <a href="./imagenes/manual-de-procedimiento-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
-                <a href="./imagenes/formularios-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
-                <br>
-                <p>Otros Links de Interés</p>
-                <a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
-                <a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a>
-                <a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a>
-                
-                <!-- <ul class="nav__list">
-                    <li> 
-                        <a href="#!">Otros Links de Interés <span class="material-symbols-outlined">expand_more</span></a>
-                        <ul class="nav-dropdown"> -->
-                            <!-- <li><a href="./imagenes/Guia-Prestaciones-Discapacidad.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>guía de prestaciones</p></a></li> -->
-                            <!-- <li><a href="./imagenes/i-c_modelo.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>resumen de historia clínica</p></a></li> -->
-                            <!-- <li><a href="./imagenes/instructivo-facturacion-2023.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a></li>
-                            <li><a href="./imagenes/ANEXO-II.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo II</p></a></li>
-                            <li><a href="./imagenes/ANEXO-III.pdf" class="cards__card__body-item"><i class="fa-solid fa-download fa-2xl"></i><p>anexo III</p></a></li> -->
-                        <!-- </ul>
-                    </li>
-                </ul> -->
-                
-                <!-- <div class="cards__card__body-item"> -->
-                
-                
-                
-                
-                
-            <!-- </div> -->
+                <h3 class="cards__card__body-titulo">manual instructivo de prestaciones para personas con discapacidad</h3>
+                <p>Instructivo para beneficiarios 2025</p>
+                <a href="./imagenes/instructivo-discapacidad-2025.pdf" class="cards__card__body-item" target="_blank"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí el  manual de procedimiento</p></a>
+                <a href="./imagenes/instructivo-facturacion.pdf" class="cards__card__body-item" target="_blank"><i class="fa-solid fa-download fa-2xl"></i><p>instructivo de facturación</p></a>
+                <a href="./imagenes/formularios-2025.pdf" class="cards__card__body-item" id="formularios-discapacidad" target="_blank"><i class="fa-solid fa-download fa-2xl"></i><p>Descargue aquí los  formularios</p></a>
             </div>
         </div>
     </section>
+    <div class="modal" id="homeModal">
+        <div class="modal__contenedor">
+            <div class="modal__contenido">
+
+                <div class="modal__header">
+                    <div>
+                        <button class="modal__button">x</button>
+                    </div>
+                    <h2>recetas electrónicas, ley 27.553</h2>
+                </div>
+                    <br>
+                    <div class="modal__body">
+                    <p>Dada la implementación de la <b>ley 27.553</b> de recetas electrónicas y las normas complementarias dictadas recientemente para su implementación,
+                         se pone en su conocimiento que <b>a partir del 1° de Enero de 2025, será obligatoria la prescripción de medicación y  practicas médicas diagnósticas o terapéuticas en formato electrónico.</b></p>
+                
+            </div>
+        </div>
+        </div>
+    </div>
     <!-- ###### -->
     <!-- footer -->
     <!-- ###### -->
+    
     <?php
-        include('./components/footer.html');
-        ?>
+    include('./components/footer.html');
+    ?>
+    <?php 
+    include('./components/emergencias.html');
+    ?>
+
+    <!-- <script src="./components/formularios-discapacidad.js"></script> -->
     <script src="./components/script.js?1"></script>
     <script type="text/javascript">var s=document.createElement("script");s.src="https://api.wcx.cloud/widget/?id=c6f4c0a3e0cc456b9e75c2031ae68fb3";document.head.appendChild(s);</script>
 </body>

@@ -1,17 +1,24 @@
-@import "abstracts/variables";
-@import "abstracts/mixins";
+@use "abstracts/variables";
+@use "abstracts/mixins";
 
-@import "base/base";
-@import "base/typography";
+@use "base/base";
+@use "base/typography";
 
-@import "components/footer";
+@use "components/footer";
+@use "components/formularioCartilla";
 
-@import "layout/header";
-@import "layout/planes";
-@import "layout/hero";
-@import "layout/nav";
-@import "layout/cards";
-@import "layout/sucursales";
-@import "layout/pmo";
+@use "layout/header";
+@use "layout/paginador";
+@use "layout/formularios_disca";
+@use "layout/cartilla";
+@use "layout/cartillasDescargables";
+@use "layout/planes";
+@use "layout/hero";
+@use "layout/nav";
+@use "layout/modal";
+@use "layout/cards";
+@use "layout/sucursales";
+@use "layout/pmo";
+@use "layout/vacunacion";
 
 

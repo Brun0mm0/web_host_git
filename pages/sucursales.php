@@ -245,7 +245,7 @@
             </ul>
         </div>
         <div><hr></div>
-        <div>
+        <!-- <div>
             <h4>MISIONES</h4>
         </div>
         <div class="contactos-sucursales">
@@ -256,7 +256,7 @@
                 <li><p><span class="material-symbols-outlined symbol-none">call</span> (0376) 442-4800</p></li>
             </ul>
         </div>
-        <div><hr></div>
+        <div><hr></div> -->
         <!-- <div>
             <h4>RÍO NEGRO</h4>
         </div>
@@ -360,6 +360,7 @@
         </div>
     </div>
     <?php
+        include('../components/emergencias.html');
         include('../components/footer.html');
     ?>
 </body>

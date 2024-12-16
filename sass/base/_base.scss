@@ -1,3 +1,6 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 *,
 *::after,
 *::before {
@@ -7,23 +10,25 @@
 }
 
 html {
-    font-size: 62.5%;
-    background-color: $azul-bg;
+    // font-size: 62.5%;
+    font-size: 56.25%; 
+    background-color: variables.$azul-bg;
+    // overflow: hidden
     
-    @include respond(tab-land) { 
+    scroll-behavior: smooth;
+    @include mixins.respond(tab-land) { 
         font-size: 56.25%; 
     }
 
-    @include respond(tab-port) { 
+    @include mixins.respond(tab-port) { 
         font-size: 50%; 
     }
 
-    @include respond(tab-port) { 
+    @include mixins.respond(tab-port) { 
         font-size: 50%; 
     }
     
-    scroll-behavior: smooth;
-    // @include respond(big-desktop) {
+    // @include mixins.respond(big-desktop) {
     //     font-size: 75%; 
     // }
 }
@@ -35,6 +40,19 @@ body {
     // max-width: 1440px;
     // background-color: $azul-bg;
     // box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 8px -1px, rgba(0, 0, 0, 0.3) 0px 1px 5px -1px;
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: variables.$bg-body;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: variables.$azul-logo-claro;
+        border-radius: 0.5rem;
+        &:hover {
+            background: variables.$azul-logo;
+        }
+    }
 }
 hr {
     margin: 0 10rem;
@@ -45,31 +63,45 @@ hr {
     // max-width: 130rem;
     margin-inline: auto;
     display: grid;
-    background-color: $azul-bg;
+    background-color: variables.$azul-bg;
     grid-gap: 6rem;
     padding: 15rem;
     padding-top: 30rem;
     
-    @include respond(tab-land) { 
+    @include mixins.respond(tab-land) { 
         grid-gap: 4rem;
-        max-width: 900px;
-        padding: 0 3rem; 
+        max-width: 1200px;
+        padding: 0 4rem; 
         padding-top: 20rem;
 
     }
 
-    // @include respond(tab-port) { 
-    //     max-width: 600px;  
-    // }
-
-    @include respond(phone) { 
+    @include mixins.respond(tab-port) { 
+        // max-width: 600px;  
         width: 100%;
+    }
+
+    @include mixins.respond(phone) { 
         padding: 0 2rem;
         padding-top: 18rem;
     }
 
-    @include respond(phone-small) { 
+    @include mixins.respond(phone-small) { 
         padding: 0 1.5rem;
         padding-top: 20rem;
+    }
+}
+.video {
+    display: flex;
+    justify-content: center;
+    & iframe {
+        width:560px;
+        height:315px; 
+
+        @include mixins.respond(phone) {
+        //    display: none;
+        //    width: 0;
+        width: 100%;
+        }
     }
 }
