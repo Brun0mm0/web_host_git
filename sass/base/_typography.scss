@@ -3,19 +3,24 @@
 
 @import url('https://use.typekit.net/ktd4gli.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Roboto Flex', sans-serif;
+
 html {
     line-height: 3rem;
 }
 
 p {
-    font-family: "roboto-condensed", sans-serif;
+    font-family: $secondary-font;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
 }
 
 h2 {
-    font-family: urbane, sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-style: normal;
     font-size: 4rem;
@@ -25,7 +30,7 @@ h2 {
 }
 
 h3 {
-    font-family: roboto, sans-serif;
+    font-family: $secondary-font;
     font-weight: 600;
     font-style: normal;
     font-size: 3rem;
@@ -35,7 +40,7 @@ h3 {
 
 h4 {
     font-size: 3rem;
-    font-family: urbane, sans-serif;
+    font-family: $primary-font;
     color: variables.$azul-logo;
     line-height: 4rem;
     text-align: center;
@@ -80,7 +85,7 @@ ul > p {
 }
 
 ul > li > p > b {
-    font-family: urbane, sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-style: normal;
     color: variables.$azul-logo;
@@ -91,7 +96,7 @@ ul > li > ul > li {
 }
 
 ul > li > ul > li > p {
-    font-family: roboto, sans-serif;
+    font-family: $primary-font;
     font-weight: 400;
     font-style: italic;
     font-size: 1.8rem;
@@ -99,7 +104,7 @@ ul > li > ul > li > p {
 }
 
 ul > li > ul > li > b > p {
-    font-family: "roboto-condensed", sans-serif;
+    font-family: $secondary-font;
     font-weight: 600;
     font-style: normal;
     font-size: 2rem;
@@ -112,7 +117,7 @@ a {
 }
 
 footer h3, footer p {
-    font-family: "roboto", sans-serif;
+    font-family: $secondary-font;
     color: #f5f5f5;
 }
 
@@ -322,7 +327,7 @@ footer span, i {
             & p {
                 text-align: center;
                 color: variables.$azul-bg;
-                font-family: urbane, sans-serif;
+                font-family: $primary-font;
                 font-weight: 700;
                 font-style: normal;
                 transition: all 0.1s;
@@ -341,7 +346,7 @@ footer span, i {
             }
             & h3 {
                 font-size: 3rem;
-                font-family: urbane, sans-serif;
+                font-family: $primary-font;
                 text-transform: capitalize;
                 margin-bottom: 3rem;
             }
@@ -350,12 +355,10 @@ footer span, i {
                 width: 100%;
                 margin-top: 2rem;
                 & b {
-                    // font-family: urbane, sans-serif;
-                    font-family: "roboto", sans-serif;
+                    font-family: $secondary-font;
                     font-size: 3rem;
 
                     & em {
-                        // font-weight: 400;
                         font-size: 2.5rem;
                     }
                 }
@@ -364,16 +367,12 @@ footer span, i {
             &-bd {
                 margin-top: 3rem;
                 display: grid;
-                // grid-template-columns: 2fr 1fr;
                 gap: 3rem;
                 row-gap: 3rem;
-                // justify-content: space-between;
                 & p {
                     text-align: center;
-                    // width: 100%;
-                    // margin-top: 2rem;
                     & b {
-                        font-family: urbane, sans-serif;
+                        font-family: $primary-font;
                         font-size: 3rem;
                     }
                 }
@@ -383,7 +382,6 @@ footer span, i {
             }
             
             &-item {
-                // margin-top: 2rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -397,7 +395,7 @@ footer span, i {
 }
 
 .afiliado {
-    font-family: urbane, sans-serif;
+    font-family: $primary-font;
     font-size: 1.6rem;
     th {
         font-size: 2rem;
