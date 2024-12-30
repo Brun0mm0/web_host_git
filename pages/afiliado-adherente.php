@@ -8,12 +8,12 @@
         <div class="container afiliado">
         <h2>Afiliado Adherente</h2>
         <p>Estimado Afiliado: </br> 
-        &emsp;Dado el retraso significativo en la composición de nuestro valor de cuotas, 
-        debido a las distorsiones de precios en medicamentos e insumos, así como también en todas las prestaciones médicas, 
-        se  procederá a ajustar el valor de la cuota mensual del <strong>mes de ENERO 2025</strong>, en un 2.4% (dos coma cuatro por ciento), 
-        respecto al valor del plan de servicio vigente al 31 de Diciembre de 2024,
-         con el único objetivo de intentar alcanzar el equilibrio económico entre la prestación que nuestros socios demandan y el costo de los servicios que brindan los efectores contratados.</p>
-        <p>Los valores <b>para las cuotas de ENERO 2025</b> son los siguientes:</p>
+        &emsp;Con el objetivo de mantener una comunicación cercana y transparente, 
+                nos ponemos en contacto para informarle una actualización del 2,4% en la cuota mensual de su plan, que se aplicará a partir de Enero de 2025. 
+                Este incremento tiene como objetivo responder a los desafíos actuales del sector sanitario y  continuar retribuyendo en forma adecuada a profesionales de la salud.</br>
+                Nos comprometemos a continuar trabajando en forma cada vez más responsable y eficiente para brindarles el servicio de excelencia que nos caracteriza. </p>
+        
+            <p>Los valores <b>para las cuotas de ENERO 2025</b> son los siguientes:</p>
         <!-- <p>Estimado Afiliado, los valores de las cuotas a partir de <strong>Septiembre 2023</strong> son los siguientes:</p> -->
             <table>
                 <tbody>  

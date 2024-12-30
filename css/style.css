@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/ktd4gli.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 *,
 *::after,
 *::before {
@@ -105,14 +106,14 @@ html {
 }
 
 p {
-  font-family: "roboto-condensed", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
 }
 
 h2 {
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 4rem;
@@ -122,7 +123,7 @@ h2 {
 }
 
 h3 {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 3rem;
@@ -132,7 +133,7 @@ h3 {
 
 h4 {
   font-size: 3rem;
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #009ADA;
   line-height: 4rem;
   text-align: center;
@@ -172,7 +173,7 @@ ul > p {
 }
 
 ul > li > p > b {
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #009ADA;
@@ -183,7 +184,7 @@ ul > li > ul > li {
 }
 
 ul > li > ul > li > p {
-  font-family: roboto, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 1.8rem;
@@ -191,7 +192,7 @@ ul > li > ul > li > p {
 }
 
 ul > li > ul > li > b > p {
-  font-family: "roboto-condensed", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 2rem;
@@ -204,7 +205,7 @@ a {
 }
 
 footer h3, footer p {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   color: #f5f5f5;
 }
 
@@ -412,7 +413,7 @@ footer span, i {
 .nav__btn a p {
   text-align: center;
   color: #f5f5f5;
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   transition: all 0.1s;
@@ -423,7 +424,7 @@ footer span, i {
 }
 .cards__card__body h3 {
   font-size: 3rem;
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   margin-bottom: 3rem;
 }
@@ -433,7 +434,7 @@ footer span, i {
   margin-top: 2rem;
 }
 .cards__card__body p b {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 3rem;
 }
 .cards__card__body p b em {
@@ -449,7 +450,7 @@ footer span, i {
   text-align: center;
 }
 .cards__card__body-bd p b {
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
 }
 @media only screen and (max-width: 37.5em) {
@@ -467,7 +468,7 @@ footer span, i {
 }
 
 .afiliado {
-  font-family: urbane, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
 .afiliado th {
@@ -1507,7 +1508,7 @@ nav > ul ul li a {
   background-color: transparent;
   padding: 1rem;
   cursor: pointer;
-  font-family: hoss-round-wide, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #909090;
   font-weight: 700;
   font-size: 3rem;
@@ -1536,7 +1537,7 @@ nav > ul ul li a {
   }
 }
 .modal__emergencias-boton {
-  font-family: roboto, sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   height: 100%;
   font-size: 2rem;
@@ -1780,8 +1781,6 @@ nav > ul ul li a {
   }
 }
 
-<<<<<<< HEAD
-=======
 .numeros {
   list-style: decimal;
 }
@@ -1791,7 +1790,6 @@ nav > ul ul li a {
   color: #009ADA;
 }
 
->>>>>>> ab6e191e8c2735e9096bc7b16c6f8ae9ebfe516d
 .tildes {
   list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/></svg>");
 }

@@ -10,10 +10,10 @@
         <p>Estimado Afiliado: </br> 
         &emsp;Dado el retraso significativo en la composición de nuestro valor de cuotas, 
         debido a las distorsiones de precios en medicamentos e insumos, así como también en todas las prestaciones médicas, 
-        se  procederá a ajustar el valor de la cuota mensual del <strong>mes de DICIEMBRE 2024</strong>, en un 3,6% (tres coma seis por ciento), 
-        respecto al valor del plan de servicio vigente al 30 de Noviembre de 2024,
+        se  procederá a ajustar el valor de la cuota mensual del <strong>mes de ENERO 2025</strong>, en un 2.4% (dos coma cuatro por ciento), 
+        respecto al valor del plan de servicio vigente al 31 de Diciembre de 2024,
          con el único objetivo de intentar alcanzar el equilibrio económico entre la prestación que nuestros socios demandan y el costo de los servicios que brindan los efectores contratados.</p>
-        <p>Los valores <b>para las cuotas de DICIEMBRE 2024</b> son los siguientes:</p>
+        <p>Los valores <b>para las cuotas de ENERO 2025</b> son los siguientes:</p>
         <!-- <p>Estimado Afiliado, los valores de las cuotas a partir de <strong>Septiembre 2023</strong> son los siguientes:</p> -->
             <table>
                 <tbody>  
@@ -24,38 +24,38 @@
                     </tr>      
                     <tr>
                         <th>Beneficiarios cantidad</th>
-                        <th>NOVIEMBRE 2024</th>
                         <th>DICIEMBRE 2024</th>
+                        <th>ENERO 2025</th>
                     </tr>
                     <tr>
                         <td>Titular o 1 beneficiario</td>
-                        <td>$ 28.843</td>
                         <td>$ 29.882</td>
+                        <td>$ 30.599</td>
                     </tr>
                     <tr>
                         <td>Matrimonio o 2 beneficiarios</td>
-                        <td>$ 50.160</td>
                         <td>$ 51.966</td>
+                        <td>$ 53.123</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 1 hijo o 3 beneficiarios</td>
-                        <td>$ 66.985</td>
                         <td>$ 69.396</td>
+                        <td>$ 71.062</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 2 hijos o 4 beneficiarios</td>
-                        <td>$ 79.834</td>
                         <td>$ 82.708</td>
+                        <td>$ 84.693</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 3 hijos o 5 beneficiarios</td>
-                        <td>$ 99.166</td>
                         <td>$ 102.736</td>
+                        <td>$ 105.202</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 4 hijos o 6 beneficiarios</td>
-                        <td>$ 117.101</td>
                         <td>$ 121.317</td>
+                        <td>$ 124.229</td>
                     </tr>
                 </table>
             </tbody>
