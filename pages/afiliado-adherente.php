@@ -35,7 +35,7 @@
                     <tr>
                         <td>Matrimonio o 2 beneficiarios</td>
                         <td>$ 51.966</td>
-                        <td>$ 53.123</td>
+                        <td>$ 53.213</td>
                     </tr>
                     <tr>
                         <td>Matrimonio + 1 hijo o 3 beneficiarios</td>
